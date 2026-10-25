@@ -1,0 +1,458 @@
+# AdBlocklist 规则源配置文件
+# 所有规则源均为原始上游规则源，不引用第三方二次整合产物
+# 支持 block（阻断源）与 allow（白名单源）
+# 规模层级 (tier): lite（精简版）/ standard（标准版）/ full（完整版）
+# 覆盖区域 (region): china（国内版）/ overseas（海外版）/ all（全域版）
+# 规则格式 (format): adblock / hosts / domains
+
+settings:
+  outputDir: "output"
+  timeoutMs: 30000
+  retries: 3
+  userAgent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+  excludeSources:
+    - name: "本地基础设施误判排除清单"
+      path: "config/exclude.txt"
+  allowlistSources:
+    - name: "本地应用核心放行规则"
+      path: "config/allowlist.txt"
+    - name: "GOODBYEADS 精选白名单"
+      url: "https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/mod/whitelist.txt"
+  readmeTemplate: "templates/README.md.tpl"
+  targetReadme: "README.md"
+  enableSubdomainPruning: true
+  maxOutputSizeBytes: 20971520
+
+sources:
+  - name: "AWAvenue 秋风广告规则"
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt"
+    format: "hosts"
+    region: "china"
+    tier: "lite"
+    type: "block"
+    enabled: true
+    priority: 100
+    homepage: "https://awavenue.top/"
+    description: "国内移动端开屏与内置广告规则，体积小、命中率高"
+    reason: "GitHub 热门中文广告规则项目，超低内存占用且高频维护"
+
+  - name: "OISD (Small)"
+    url: "https://small.oisd.nl"
+    format: "adblock"
+    region: "all"
+    tier: "lite"
+    type: "block"
+    enabled: true
+    priority: 95
+    homepage: "https://oisd.nl/"
+    description: "知名低误杀 DNS 阻断源，主打稳定不破坏网页与应用"
+    reason: "国际权威低误杀规则，遵循 Block Don't break 哲学"
+
+  - name: "Peter Lowe's List"
+    url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext"
+    format: "adblock"
+    region: "overseas"
+    tier: "lite"
+    type: "block"
+    enabled: true
+    priority: 95
+    homepage: "https://pgl.yoyo.org/adservers/"
+    description: "始于 1999 年的经典广告服务器列表，uBlock Origin 内置默认源"
+    reason: "历史悠久、审核严格，社区公认零误杀声誉"
+
+
+  - name: "HaGeZi's Multi PRO"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 92
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "HaGeZi 旗舰综合广告与隐私拦截列表，兼顾高拦截率与超低误杀"
+    reason: "全球公认的高质量综合过滤源，全方位阻断广告、追踪器与遥测"
+
+  - name: "HaGeZi's DoH/VPN/Proxy Bypass"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 90
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "阻断加密 DNS (DoH/DoT/DoQ) 与代理通道，防止智能设备绕过局域网拦截"
+    reason: "防止应用、电视与移动端硬编码 DoH 逃避局域网 DNS 去广告防护"
+
+  - name: "HaGeZi's Fake, Scam & Fraud"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 90
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截虚假商店、诈骗转账、钓鱼理财与仿冒欺诈站点"
+    reason: "有效防范网络黑产与欺诈钓鱼，提供基础金融安全防护"
+
+  - name: "HaGeZi's Pop-up Ads"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 88
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专注于拦截恶意弹窗、强制重定向及悬浮广告网络"
+    reason: "专项阻断高频弹窗域名，显著提升网页浏览体验"
+
+  - name: "HaGeZi's Dynamic DNS (DynDNS)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "阻断被恶意软件和僵尸网络频繁滥用的动态域名服务"
+    reason: "有效遏制恶意软件利用动态 DNS 建立隐蔽 C2 通信"
+
+  - name: "HaGeZi's Badware File Hoster"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/hoster.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截捆绑流氓软件、虚假高速下载按钮的不良网盘与分发站"
+    reason: "阻断恶意推广下载器与捆绑安装包传播路径"
+
+  - name: "HaGeZi's Native Tracker (Xiaomi)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截小米手机与 MIUI/HyperOS 系统内置广告及遥测追踪"
+    reason: "遏制小米生态设备自带开屏与遥测数据回传"
+
+  - name: "HaGeZi's Native Tracker (Huawei)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截华为/荣耀设备系统应用内置广告与遥测收集"
+    reason: "遏制华为生态设备自带广告与用户行为数据回传"
+
+  - name: "HaGeZi's Native Tracker (Samsung)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截三星智能手机与三星智能电视遥测及开屏广告"
+    reason: "针对三星设备自带遥测与推送广告的专项过滤"
+
+  - name: "HaGeZi's Native Tracker (LG webOS TV)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.lgwebos.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截 LG 智能电视 webOS 开机广告、主页横幅与遥测"
+    reason: "家庭大屏去广告，有效改善 LG 电视使用体验"
+
+  - name: "HaGeZi's Native Tracker (Windows & Office)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截 Windows 系统与 Office 组件内置诊断、推广与遥测"
+    reason: "遏制操作系统级别的后台隐蔽数据追踪"
+
+  - name: "HaGeZi's Native Tracker (Amazon)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt"
+    format: "adblock"
+    region: "overseas"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截亚马逊 Echo、Fire TV、Kindle 等设备的遥测广告与追踪"
+    reason: "海外智能家居设备遥测阻断专项补充"
+
+  - name: "AdGuard DNS Filter"
+    url: "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 90
+    homepage: "https://github.com/AdguardTeam/HostlistsRegistry"
+    description: "AdGuard 官方针对 DNS 过滤优化精简的基础过滤规则"
+    reason: "结合 AdGuard Base、Tracking 和 EasyList，由官方团队维护"
+
+  - name: "StevenBlack Unified Hosts"
+    url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+    format: "hosts"
+    region: "overseas"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/StevenBlack/hosts"
+    description: "经典通用 hosts 聚合源，包含常见广告与恶意域名"
+    reason: "GitHub 2.7w+ stars，全球最广泛使用的 hosts 拦截源"
+
+  - name: "AdAway Default Blocklist"
+    url: "https://adaway.org/hosts.txt"
+    format: "hosts"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://adaway.org/"
+    description: "经典开源移动端 hosts 拦截列表，专注于移动端广告与遥测"
+    reason: "移动端广告拦截基石，覆盖常用 App 广告与追踪域名"
+
+  - name: "SmartTV Blocklist (AGH)"
+    url: "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/Perflyst/PiHoleBlocklist"
+    description: "专用于拦截三星、LG、小米等主流智能电视开关机广告与遥测"
+    reason: "家庭场景针对智能电视广告的专用补充源"
+
+  - name: "Game Console Adblock List"
+    url: "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt"
+    format: "adblock"
+    region: "overseas"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/DandelionSprout/adfilt"
+    description: "专用于拦截 PlayStation, Xbox, Nintendo Switch, Nvidia Shield 广告与遥测"
+    reason: "家庭游戏设备广告拦截专项补充"
+
+  - name: "HaGeZi's Native Tracker (OPPO & Realme)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截 OPPO 与 Realme 设备系统应用内置广告与 ColorOS 遥测数据回传"
+    reason: "覆盖国内主流品牌 OPPO/Realme 移动设备的原生去广告需求"
+
+  - name: "HaGeZi's Native Tracker (Vivo)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截 Vivo/iQOO 设备系统应用内置广告、开屏及 OriginOS 遥测"
+    reason: "覆盖国内主流品牌 Vivo/iQOO 移动设备的原生去广告需求"
+
+  - name: "HaGeZi's Native Tracker (Apple)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "拦截 Apple 诊断度量、iAd 广告网络与系统遥测，不影响 iCloud 及系统更新"
+    reason: "针对 iOS/macOS 生态的遥测与内置广告过滤"
+
+  - name: "CJX's Annoyance List"
+    url: "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 80
+    homepage: "https://github.com/cjx82630/cjxlist"
+    description: "过滤虚假下载按钮、自我推广与悬浮烦人元素"
+    reason: "国内知名维护者 CJX 维护的烦人元素补充规则"
+
+  - name: "乘风视频过滤规则 (xinggsf)"
+    url: "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 80
+    homepage: "https://github.com/xinggsf/Adblock-Plus-Rule"
+    description: "专注于国内主流在线视频片头与播放暂停广告拦截"
+    reason: "针对视频流媒体广告的专项规则"
+
+  - name: "乘风通用过滤规则 (xinggsf)"
+    url: "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 80
+    homepage: "https://github.com/xinggsf/Adblock-Plus-Rule"
+    description: "专注于国内网站横幅、弹窗与恶意跳转过滤"
+    reason: "与乘风视频规则配套，由资深维护者持续维护的经典中文规则"
+
+  - name: "EasyList China"
+    url: "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 80
+    homepage: "https://easylist.to/"
+    description: "EasyList 面向中文站点的通用基础规则"
+    reason: "Adblock Plus 官方中国区基础规则库"
+
+  - name: "EasyPrivacy"
+    url: "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 80
+    homepage: "https://easylist.to/"
+    description: "国际通用的隐私追踪与行为分析阻断列表"
+    reason: "全球公认的跟踪器拦截行业基准"
+
+  - name: "Dan Pollock's hosts"
+    url: "https://someonewhocares.org/hosts/zero/hosts"
+    format: "hosts"
+    region: "overseas"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 75
+    homepage: "https://someonewhocares.org/hosts/"
+    description: "极简高效的 0.0.0.0 格式阻断源"
+    reason: "资深安全维护者运营数十年的经典源"
+
+  - name: "1024_hosts"
+    url: "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts"
+    format: "hosts"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 75
+    homepage: "https://github.com/Goooler/1024_hosts"
+    description: "专注于国内移动端广告 SDK 与游戏广告过滤"
+    reason: "补充穿山甲、优量汇等移动端 SDK 域名"
+
+  - name: "HaGeZi's Native Tracker (TikTok)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt"
+    format: "adblock"
+    region: "china"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截抖音/TikTok 与字节跳动系原生广告与遥测数据回传"
+    reason: "补充短视频与海外移动端原生追踪器过滤"
+
+  - name: "HaGeZi's Native Tracker (Roku)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.roku.txt"
+    format: "adblock"
+    region: "overseas"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "专项拦截 Roku 智能流媒体电视开屏、主页广告与遥测追踪"
+    reason: "家庭场景下海外主流智能电视去广告补充"
+
+  - name: "HaGeZi's The World's Most Abused TLDs (Spam TLDs)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock.txt"
+    format: "adblock"
+    region: "all"
+    tier: "full"
+    type: "block"
+    enabled: true
+    priority: 90
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "阻断被 Spamhaus、Cloudflare Radar 认定为黑产高频滥用的垃圾顶级域名"
+    reason: "有效防范黑产利用廉价/免费顶级域名批量注册钓鱼欺诈站点"
+
+  - name: "HaGeZi's Threat Intelligence Feeds (TIF Mini)"
+    url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.mini.txt"
+    format: "adblock"
+    region: "all"
+    tier: "full"
+    type: "block"
+    enabled: true
+    priority: 95
+    homepage: "https://github.com/hagezi/dns-blocklists"
+    description: "针对恶意软件、钓鱼欺诈与 C2 僵尸网络的活跃高危威胁情报阻断源（高精度清洗版）"
+    reason: "剔除死链与失效域名，保留高危活跃威胁，兼顾极高防御强度与文件体积控制"
+
+  - name: "OISD (Big)"
+    url: "https://big.oisd.nl"
+    format: "adblock"
+    region: "overseas"
+    tier: "full"
+    type: "block"
+    enabled: true
+    priority: 75
+    homepage: "https://oisd.nl/"
+    description: "OISD 完整全量版，覆盖广泛的海外广告、追踪与分析网络"
+    reason: "为海外全量版提供高覆盖率的权威全量源"
+
+  - name: "anti-AD"
+    url: "https://anti-ad.net/domains.txt"
+    format: "domains"
+    region: "china"
+    tier: "full"
+    type: "block"
+    enabled: true
+    priority: 70
+    homepage: "https://anti-ad.net/"
+    description: "国内全量广告与隐私追踪过滤源（9w+ 规则）"
+    reason: "规则覆盖面极广，纳入 full 级别并依靠排除表防误杀"

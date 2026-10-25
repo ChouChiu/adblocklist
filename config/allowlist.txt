@@ -1,0 +1,117 @@
+# 白名单放行规则表 (Allowlist)
+# 采用 Adblock Plus 格式 (@@||domain^)，生成时置顶输出并具有最高匹配优先级
+
+# 人工智能与大模型平台 (ChatGPT / Claude / Anthropic)
+@@||chatgpt.com^
+@@||oaistatic.com^
+@@||oaiusercontent.com^
+@@||claude.ai^
+@@||anthropic.com^
+
+# 网络连通性探测与 Captive Portal 认证
+@@||detectportal.firefox.com^
+@@||msftncsi.com^
+@@||captive.apple.com^
+@@||connectivitycheck.gstatic.com^
+@@||connectivitycheck.android.com^
+
+# 人机验证与反机器人防伪 (Arkose Labs / FunCaptcha / Geetest / hCaptcha)
+@@||arkoselabs.com^
+@@||funcaptcha.com^
+@@||geetest.com^
+@@||hcaptcha.com^
+@@||recaptcha.net^
+
+# 网易通行证、易盾验证与网易云音乐
+@@||cstaticdun.126.net^
+@@||dl.reg.163.com^
+@@||webzjcaptcha.reg.163.com^
+@@||music.163.com^
+@@||p1.music.126.net^
+@@||p2.music.126.net^
+
+# 腾讯系核心服务 (QQ 音乐、微信、小程序、企业微信)
+@@||y.qq.com^
+@@||shminorshort.weixin.qq.com^
+@@||support.weixin.qq.com^
+@@||minorshort.weixin.qq.com^
+@@||work.weixin.qq.com^
+@@||res.wx.qq.com^
+@@||servicewechat.com^
+@@||dldir1.qq.com^
+@@||puui.qpic.cn^
+@@||inews.gtimg.com^
+@@||qlogo.cn^
+@@||v.qq.com^
+
+# 阿里系电商与云服务 (淘宝、天猫、支付宝、菜鸟)
+@@||acs.m.taobao.com^
+@@||gma.alicdn.com^
+@@||center-h5api.m.taobao.com^
+@@||uland.taobao.com^
+@@||cnlogin.cainiao.com^
+@@||trade-acs.m.taobao.com^
+@@||m.alipay.com^
+@@||openapi.alipay.com^
+
+# 哔哩哔哩 (弹幕、直播、静态资源与核心 API)
+@@||broadcastlv.chat.bilibili.com^
+@@||api.bilibili.com^
+@@||live.bilibili.com^
+@@||data.bilibili.com^
+@@||hdslb.com^
+@@||biliapi.net^
+
+# 知乎社区与静态图床
+@@||zhihu.com^
+@@||zhimg.com^
+
+# 远程办公与协作工具 (钉钉、飞书)
+@@||dingtalk.com^
+@@||feishu.cn^
+@@||larksuite.com^
+
+# 百度网盘与高德地图
+@@||pan.baidu.com^
+@@||baidupcs.com^
+@@||amap.com^
+@@||autonavi.com^
+
+# 京东与拼多多核心业务
+@@||wl.jd.com^
+@@||api.m.jd.com^
+@@||pinduoduo.com^
+@@||yangkeduo.com^
+
+# 小米生态与小爱音箱
+@@||tracker.ai.xiaomi.com^
+@@||zhuti.xiaomi.com^
+@@||api.io.mi.com^
+@@||account.xiaomi.com^
+
+# 苹果系统服务 (App Store、TestFlight、iCloud、APNs)
+@@||itunes.apple.com^
+@@||app-store.apple.com^
+@@||testflight.apple.com^
+@@||identity.apple.com^
+@@||setup.icloud.com^
+
+# 微软与 Office 365 办公服务
+@@||login.microsoftonline.com^
+@@||account.live.com^
+@@||onedrive.live.com^
+@@||teams.microsoft.com^
+
+# 游戏平台网络服务 (Steam、Epic、PlayStation、Nintendo)
+@@||store.steampowered.com^
+@@||steamcommunity.com^
+@@||epicgames.com^
+@@||playstation.com^
+@@||nintendo.net^
+
+# 开发者与基础设施节点
+@@||github.com^
+@@||githubusercontent.com^
+@@||console.bce.baidu.com^
+@@||login.bce.baidu.com^
+@@||stats.uptimerobot.com^

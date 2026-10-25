@@ -1,0 +1,801 @@
+{
+  "startTime": "2026-10-25 16:03:22",
+  "endTime": "2026-10-25 16:03:32",
+  "durationMs": 9446,
+  "totalSourcesConfigured": 36,
+  "totalSourcesEnabled": 36,
+  "totalSourcesSuccess": 36,
+  "totalSourcesFailed": 0,
+  "sourceResults": [
+    {
+      "source": {
+        "name": "AWAvenue 秋风广告规则",
+        "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt",
+        "format": "hosts",
+        "region": "china",
+        "tier": "lite",
+        "type": "block",
+        "enabled": true,
+        "priority": 100,
+        "homepage": "https://awavenue.top/",
+        "description": "国内移动端开屏与内置广告规则，体积小、命中率高",
+        "reason": "GitHub 热门中文广告规则项目，超低内存占用且高频维护"
+      },
+      "success": true,
+      "durationMs": 308,
+      "rawLineCount": 1954,
+      "validRuleCount": 1914
+    },
+    {
+      "source": {
+        "name": "OISD (Small)",
+        "url": "https://small.oisd.nl",
+        "format": "adblock",
+        "region": "all",
+        "tier": "lite",
+        "type": "block",
+        "enabled": true,
+        "priority": 95,
+        "homepage": "https://oisd.nl/",
+        "description": "知名低误杀 DNS 阻断源，主打稳定不破坏网页与应用",
+        "reason": "国际权威低误杀规则，遵循 Block Don't break 哲学"
+      },
+      "success": true,
+      "durationMs": 2814,
+      "rawLineCount": 58719,
+      "validRuleCount": 58607
+    },
+    {
+      "source": {
+        "name": "Peter Lowe's List",
+        "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext",
+        "format": "adblock",
+        "region": "overseas",
+        "tier": "lite",
+        "type": "block",
+        "enabled": true,
+        "priority": 95,
+        "homepage": "https://pgl.yoyo.org/adservers/",
+        "description": "始于 1999 年的经典广告服务器列表，uBlock Origin 内置默认源",
+        "reason": "历史悠久、审核严格，社区公认零误杀声誉"
+      },
+      "success": true,
+      "durationMs": 1968,
+      "rawLineCount": 3583,
+      "validRuleCount": 3559
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Multi PRO",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 92,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "HaGeZi 旗舰综合广告与隐私拦截列表，兼顾高拦截率与超低误杀",
+        "reason": "全球公认的高质量综合过滤源，全方位阻断广告、追踪器与遥测"
+      },
+      "success": true,
+      "durationMs": 3124,
+      "rawLineCount": 208311,
+      "validRuleCount": 207973
+    },
+    {
+      "source": {
+        "name": "HaGeZi's DoH/VPN/Proxy Bypass",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/doh-vpn-proxy-bypass.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 90,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "阻断加密 DNS (DoH/DoT/DoQ) 与代理通道，防止智能设备绕过局域网拦截",
+        "reason": "防止应用、电视与移动端硬编码 DoH 逃避局域网 DNS 去广告防护"
+      },
+      "success": true,
+      "durationMs": 1630,
+      "rawLineCount": 16300,
+      "validRuleCount": 16223
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Fake, Scam & Fraud",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/fake.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 90,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截虚假商店、诈骗转账、钓鱼理财与仿冒欺诈站点",
+        "reason": "有效防范网络黑产与欺诈钓鱼，提供基础金融安全防护"
+      },
+      "success": true,
+      "durationMs": 1674,
+      "rawLineCount": 17609,
+      "validRuleCount": 17595
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Pop-up Ads",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/popupads.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 88,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专注于拦截恶意弹窗、强制重定向及悬浮广告网络",
+        "reason": "专项阻断高频弹窗域名，显著提升网页浏览体验"
+      },
+      "success": true,
+      "durationMs": 2170,
+      "rawLineCount": 47829,
+      "validRuleCount": 47812
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Dynamic DNS (DynDNS)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "阻断被恶意软件和僵尸网络频繁滥用的动态域名服务",
+        "reason": "有效遏制恶意软件利用动态 DNS 建立隐蔽 C2 通信"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 1555,
+      "validRuleCount": 1541
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Badware File Hoster",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/hoster.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截捆绑流氓软件、虚假高速下载按钮的不良网盘与分发站",
+        "reason": "阻断恶意推广下载器与捆绑安装包传播路径"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 1105,
+      "validRuleCount": 1089
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Xiaomi)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截小米手机与 MIUI/HyperOS 系统内置广告及遥测追踪",
+        "reason": "遏制小米生态设备自带开屏与遥测数据回传"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 359,
+      "validRuleCount": 338
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Huawei)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截华为/荣耀设备系统应用内置广告与遥测收集",
+        "reason": "遏制华为生态设备自带广告与用户行为数据回传"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 149,
+      "validRuleCount": 125
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Samsung)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.samsung.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截三星智能手机与三星智能电视遥测及开屏广告",
+        "reason": "针对三星设备自带遥测与推送广告的专项过滤"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 214,
+      "validRuleCount": 200
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (LG webOS TV)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.lgwebos.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截 LG 智能电视 webOS 开机广告、主页横幅与遥测",
+        "reason": "家庭大屏去广告，有效改善 LG 电视使用体验"
+      },
+      "success": true,
+      "durationMs": 928,
+      "rawLineCount": 245,
+      "validRuleCount": 231
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Windows & Office)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.winoffice.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截 Windows 系统与 Office 组件内置诊断、推广与遥测",
+        "reason": "遏制操作系统级别的后台隐蔽数据追踪"
+      },
+      "success": true,
+      "durationMs": 925,
+      "rawLineCount": 397,
+      "validRuleCount": 325
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Amazon)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.amazon.txt",
+        "format": "adblock",
+        "region": "overseas",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截亚马逊 Echo、Fire TV、Kindle 等设备的遥测广告与追踪",
+        "reason": "海外智能家居设备遥测阻断专项补充"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 382,
+      "validRuleCount": 368
+    },
+    {
+      "source": {
+        "name": "AdGuard DNS Filter",
+        "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 90,
+        "homepage": "https://github.com/AdguardTeam/HostlistsRegistry",
+        "description": "AdGuard 官方针对 DNS 过滤优化精简的基础过滤规则",
+        "reason": "结合 AdGuard Base、Tracking 和 EasyList，由官方团队维护"
+      },
+      "success": true,
+      "durationMs": 2821,
+      "rawLineCount": 191748,
+      "validRuleCount": 190833
+    },
+    {
+      "source": {
+        "name": "StevenBlack Unified Hosts",
+        "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
+        "format": "hosts",
+        "region": "overseas",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/StevenBlack/hosts",
+        "description": "经典通用 hosts 聚合源，包含常见广告与恶意域名",
+        "reason": "GitHub 2.7w+ stars，全球最广泛使用的 hosts 拦截源"
+      },
+      "success": true,
+      "durationMs": 2398,
+      "rawLineCount": 78318,
+      "validRuleCount": 70567
+    },
+    {
+      "source": {
+        "name": "AdAway Default Blocklist",
+        "url": "https://adaway.org/hosts.txt",
+        "format": "hosts",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://adaway.org/",
+        "description": "经典开源移动端 hosts 拦截列表，专注于移动端广告与遥测",
+        "reason": "移动端广告拦截基石，覆盖常用 App 广告与追踪域名"
+      },
+      "success": true,
+      "durationMs": 1715,
+      "rawLineCount": 10608,
+      "validRuleCount": 6520
+    },
+    {
+      "source": {
+        "name": "SmartTV Blocklist (AGH)",
+        "url": "https://perflyst.github.io/PiHoleBlocklist/SmartTV-AGH.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/Perflyst/PiHoleBlocklist",
+        "description": "专用于拦截三星、LG、小米等主流智能电视开关机广告与遥测",
+        "reason": "家庭场景针对智能电视广告的专用补充源"
+      },
+      "success": true,
+      "durationMs": 928,
+      "rawLineCount": 292,
+      "validRuleCount": 150
+    },
+    {
+      "source": {
+        "name": "Game Console Adblock List",
+        "url": "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt",
+        "format": "adblock",
+        "region": "overseas",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/DandelionSprout/adfilt",
+        "description": "专用于拦截 PlayStation, Xbox, Nintendo Switch, Nvidia Shield 广告与遥测",
+        "reason": "家庭游戏设备广告拦截专项补充"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 85,
+      "validRuleCount": 14
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (OPPO & Realme)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.oppo-realme.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截 OPPO 与 Realme 设备系统应用内置广告与 ColorOS 遥测数据回传",
+        "reason": "覆盖国内主流品牌 OPPO/Realme 移动设备的原生去广告需求"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 503,
+      "validRuleCount": 489
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Vivo)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.vivo.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截 Vivo/iQOO 设备系统应用内置广告、开屏及 OriginOS 遥测",
+        "reason": "覆盖国内主流品牌 Vivo/iQOO 移动设备的原生去广告需求"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 258,
+      "validRuleCount": 244
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Apple)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "拦截 Apple 诊断度量、iAd 广告网络与系统遥测，不影响 iCloud 及系统更新",
+        "reason": "针对 iOS/macOS 生态的遥测与内置广告过滤"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 124,
+      "validRuleCount": 110
+    },
+    {
+      "source": {
+        "name": "CJX's Annoyance List",
+        "url": "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 80,
+        "homepage": "https://github.com/cjx82630/cjxlist",
+        "description": "过滤虚假下载按钮、自我推广与悬浮烦人元素",
+        "reason": "国内知名维护者 CJX 维护的烦人元素补充规则"
+      },
+      "success": true,
+      "durationMs": 1210,
+      "rawLineCount": 1864,
+      "validRuleCount": 164
+    },
+    {
+      "source": {
+        "name": "乘风视频过滤规则 (xinggsf)",
+        "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 80,
+        "homepage": "https://github.com/xinggsf/Adblock-Plus-Rule",
+        "description": "专注于国内主流在线视频片头与播放暂停广告拦截",
+        "reason": "针对视频流媒体广告的专项规则"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 181,
+      "validRuleCount": 29
+    },
+    {
+      "source": {
+        "name": "乘风通用过滤规则 (xinggsf)",
+        "url": "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 80,
+        "homepage": "https://github.com/xinggsf/Adblock-Plus-Rule",
+        "description": "专注于国内网站横幅、弹窗与恶意跳转过滤",
+        "reason": "与乘风视频规则配套，由资深维护者持续维护的经典中文规则"
+      },
+      "success": true,
+      "durationMs": 930,
+      "rawLineCount": 1249,
+      "validRuleCount": 163
+    },
+    {
+      "source": {
+        "name": "EasyList China",
+        "url": "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 80,
+        "homepage": "https://easylist.to/",
+        "description": "EasyList 面向中文站点的通用基础规则",
+        "reason": "Adblock Plus 官方中国区基础规则库"
+      },
+      "success": true,
+      "durationMs": 2230,
+      "rawLineCount": 17808,
+      "validRuleCount": 5883
+    },
+    {
+      "source": {
+        "name": "EasyPrivacy",
+        "url": "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 80,
+        "homepage": "https://easylist.to/",
+        "description": "国际通用的隐私追踪与行为分析阻断列表",
+        "reason": "全球公认的跟踪器拦截行业基准"
+      },
+      "success": true,
+      "durationMs": 2647,
+      "rawLineCount": 54344,
+      "validRuleCount": 44649
+    },
+    {
+      "source": {
+        "name": "Dan Pollock's hosts",
+        "url": "https://someonewhocares.org/hosts/zero/hosts",
+        "format": "hosts",
+        "region": "overseas",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 75,
+        "homepage": "https://someonewhocares.org/hosts/",
+        "description": "极简高效的 0.0.0.0 格式阻断源",
+        "reason": "资深安全维护者运营数十年的经典源"
+      },
+      "success": true,
+      "durationMs": 1612,
+      "rawLineCount": 13298,
+      "validRuleCount": 12965
+    },
+    {
+      "source": {
+        "name": "1024_hosts",
+        "url": "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts",
+        "format": "hosts",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 75,
+        "homepage": "https://github.com/Goooler/1024_hosts",
+        "description": "专注于国内移动端广告 SDK 与游戏广告过滤",
+        "reason": "补充穿山甲、优量汇等移动端 SDK 域名"
+      },
+      "success": true,
+      "durationMs": 1138,
+      "rawLineCount": 3242,
+      "validRuleCount": 3224
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (TikTok)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt",
+        "format": "adblock",
+        "region": "china",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截抖音/TikTok 与字节跳动系原生广告与遥测数据回传",
+        "reason": "补充短视频与海外移动端原生追踪器过滤"
+      },
+      "success": true,
+      "durationMs": 926,
+      "rawLineCount": 451,
+      "validRuleCount": 437
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Native Tracker (Roku)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.roku.txt",
+        "format": "adblock",
+        "region": "overseas",
+        "tier": "standard",
+        "type": "block",
+        "enabled": true,
+        "priority": 85,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "专项拦截 Roku 智能流媒体电视开屏、主页广告与遥测追踪",
+        "reason": "家庭场景下海外主流智能电视去广告补充"
+      },
+      "success": true,
+      "durationMs": 922,
+      "rawLineCount": 71,
+      "validRuleCount": 57
+    },
+    {
+      "source": {
+        "name": "HaGeZi's The World's Most Abused TLDs (Spam TLDs)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/spam-tlds-adblock.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "full",
+        "type": "block",
+        "enabled": true,
+        "priority": 90,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "阻断被 Spamhaus、Cloudflare Radar 认定为黑产高频滥用的垃圾顶级域名",
+        "reason": "有效防范黑产利用廉价/免费顶级域名批量注册钓鱼欺诈站点"
+      },
+      "success": true,
+      "durationMs": 925,
+      "rawLineCount": 144,
+      "validRuleCount": 10
+    },
+    {
+      "source": {
+        "name": "HaGeZi's Threat Intelligence Feeds (TIF Mini)",
+        "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.mini.txt",
+        "format": "adblock",
+        "region": "all",
+        "tier": "full",
+        "type": "block",
+        "enabled": true,
+        "priority": 95,
+        "homepage": "https://github.com/hagezi/dns-blocklists",
+        "description": "针对恶意软件、钓鱼欺诈与 C2 僵尸网络的活跃高危威胁情报阻断源（高精度清洗版）",
+        "reason": "剔除死链与失效域名，保留高危活跃威胁，兼顾极高防御强度与文件体积控制"
+      },
+      "success": true,
+      "durationMs": 2812,
+      "rawLineCount": 212436,
+      "validRuleCount": 212395
+    },
+    {
+      "source": {
+        "name": "OISD (Big)",
+        "url": "https://big.oisd.nl",
+        "format": "adblock",
+        "region": "overseas",
+        "tier": "full",
+        "type": "block",
+        "enabled": true,
+        "priority": 75,
+        "homepage": "https://oisd.nl/",
+        "description": "OISD 完整全量版，覆盖广泛的海外广告、追踪与分析网络",
+        "reason": "为海外全量版提供高覆盖率的权威全量源"
+      },
+      "success": true,
+      "durationMs": 3510,
+      "rawLineCount": 234211,
+      "validRuleCount": 233928
+    },
+    {
+      "source": {
+        "name": "anti-AD",
+        "url": "https://anti-ad.net/domains.txt",
+        "format": "domains",
+        "region": "china",
+        "tier": "full",
+        "type": "block",
+        "enabled": true,
+        "priority": 70,
+        "homepage": "https://anti-ad.net/",
+        "description": "国内全量广告与隐私追踪过滤源（9w+ 规则）",
+        "reason": "规则覆盖面极广，纳入 full 级别并依靠排除表防误杀"
+      },
+      "success": true,
+      "durationMs": 2644,
+      "rawLineCount": 112083,
+      "validRuleCount": 111888
+    }
+  ],
+  "totalRawRules": 1292029,
+  "totalValidNormalizedRules": 1252619,
+  "totalExcludedCount": 2251,
+  "totalWhitelistedCount": 109,
+  "totalDeduplicatedCount": 732938,
+  "matrixStats": [
+    {
+      "matrixKey": "lite-china",
+      "scale": "lite",
+      "region": "china",
+      "fileName": "lite-china.txt",
+      "filePath": "output/lite-china.txt",
+      "totalCount": 58730,
+      "allowCount": 92,
+      "blockCount": 58638,
+      "fileSizeBytes": 1324142
+    },
+    {
+      "matrixKey": "lite-overseas",
+      "scale": "lite",
+      "region": "overseas",
+      "fileName": "lite-overseas.txt",
+      "filePath": "output/lite-overseas.txt",
+      "totalCount": 60303,
+      "allowCount": 92,
+      "blockCount": 60211,
+      "fileSizeBytes": 1354117
+    },
+    {
+      "matrixKey": "lite-all",
+      "scale": "lite",
+      "region": "all",
+      "fileName": "lite-all.txt",
+      "filePath": "output/lite-all.txt",
+      "totalCount": 60351,
+      "allowCount": 92,
+      "blockCount": 60259,
+      "fileSizeBytes": 1355250
+    },
+    {
+      "matrixKey": "standard-china",
+      "scale": "standard",
+      "region": "china",
+      "fileName": "standard-china.txt",
+      "filePath": "output/standard-china.txt",
+      "totalCount": 340499,
+      "allowCount": 116,
+      "blockCount": 340383,
+      "fileSizeBytes": 7799213
+    },
+    {
+      "matrixKey": "standard-overseas",
+      "scale": "standard",
+      "region": "overseas",
+      "fileName": "standard-overseas.txt",
+      "filePath": "output/standard-overseas.txt",
+      "totalCount": 361307,
+      "allowCount": 115,
+      "blockCount": 361192,
+      "fileSizeBytes": 8250456
+    },
+    {
+      "matrixKey": "standard-all",
+      "scale": "standard",
+      "region": "all",
+      "fileName": "standard-all.txt",
+      "filePath": "output/standard-all.txt",
+      "totalCount": 362549,
+      "allowCount": 116,
+      "blockCount": 362433,
+      "fileSizeBytes": 8270868
+    },
+    {
+      "matrixKey": "full-china",
+      "scale": "full",
+      "region": "china",
+      "fileName": "full-china.txt",
+      "filePath": "output/full-china.txt",
+      "totalCount": 476464,
+      "allowCount": 116,
+      "blockCount": 476348,
+      "fileSizeBytes": 10656891
+    },
+    {
+      "matrixKey": "full-overseas",
+      "scale": "full",
+      "region": "overseas",
+      "fileName": "full-overseas.txt",
+      "filePath": "output/full-overseas.txt",
+      "totalCount": 511973,
+      "allowCount": 115,
+      "blockCount": 511858,
+      "fileSizeBytes": 11661219
+    },
+    {
+      "matrixKey": "full-all",
+      "scale": "full",
+      "region": "all",
+      "fileName": "full-all.txt",
+      "filePath": "output/full-all.txt",
+      "totalCount": 519681,
+      "allowCount": 116,
+      "blockCount": 519565,
+      "fileSizeBytes": 11795731
+    }
+  ]
+}
