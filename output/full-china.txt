@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - FULL - CHINA
-! Version: 2026-10-25 16:37:54
-! Last modified: 2026-10-25 16:37:54
-! Total count: 476605
+! Version: 2026-10-25 18:46:50
+! Last modified: 2026-10-25 18:46:50
+! Total count: 476637
 ! Allowlist count: 116
-! Blocklist count: 476489
+! Blocklist count: 476521
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -12639,6 +12639,7 @@
 ||8n67t.com^
 ||8n7.s2aety.casa^
 ||8nc8shot.txxx.com^
+||8nkqg8j1iyn2vl63q2wbncx6x7b4m42f6p.cfd^
 ||8nlk7f.top^
 ||8nqp2.ur5tyhny69q53nntcz.cyou^
 ||8nrjifigyphw77n6pr.rest^
@@ -54298,6 +54299,7 @@
 ||aurislux.shop^
 ||aurisos-asset.live^
 ||aurisos-assetn154.live^
+||auristscinter.qpon^
 ||auristshacklet.com^
 ||auriuvaultis-platform.com^
 ||auriuvaultistrade.com^
@@ -67223,6 +67225,7 @@
 ||bkqykixrzrgwr.space^
 ||bkrbs.gethealthspan.com^
 ||bkrjnunlxffzx.online^
+||bkrjx629mo93rz7wrr5.rest^
 ||bkrkv.com^
 ||bkrtx.com.edgekey.net^
 ||bkrtx.com^
@@ -67580,6 +67583,7 @@
 ||blcfaglwjptwo.online^
 ||blcknvr.com^
 ||blclajmgsqq.com^
+||blclrtqiiylcc.space^
 ||blcmm.com^
 ||bld-whatsapp.com^
 ||bld.sys-adm.in^
@@ -73361,6 +73365,7 @@
 ||brkbaawvypikso.com^
 ||brkglobalsolutions.com^
 ||brkoev.minfin.com.ua^
+||brkpvjrxjgutb.site^
 ||brldassustitucion.eccocar.com^
 ||brlesrochesmarbella.eccocar.com^
 ||brlikecarsharing.eccocar.com^
@@ -82100,6 +82105,7 @@
 ||catererdiarrhoeaapproach.com^
 ||cateringquakeunfortunately.com^
 ||cateringvogue.com^
+||caterlearnt.qpon^
 ||caterpillar-finland.com^
 ||caterpillar-info.fr^
 ||caterpillar-nederland.com^
@@ -87891,6 +87897,7 @@
 ||cisspprep.net^
 ||cissusbilchrepale.cyou^
 ||cissydhole.cyou^
+||cissyhymner.cfd^
 ||cistaekovina-ai.live^
 ||cistaekovina.com^
 ||cistaekovina.live^
@@ -131238,6 +131245,7 @@
 ||dyopshw.com^
 ||dyoroffice.xyz^
 ||dyowin.com^
+||dyoyjcdvgkwui.online^
 ||dyp2p-ali.douyucdn.cn^
 ||dyp2p-hw.douyucdn.cn^
 ||dypapatius.com^
@@ -134197,6 +134205,7 @@
 ||edensinnocence.com^
 ||edesf.xyzxmark.cn^
 ||edethrelhf.com^
+||edeuafcrlhtel.online^
 ||edexpert.de^
 ||edexpress24.com^
 ||edf-act.com^
@@ -145875,6 +145884,7 @@
 ||fahfripu.in^
 ||fahhmilyhood.info^
 ||fahim.xn--gesundheit-schnheit-36b.com^
+||fahlmrlbsoyxu.space^
 ||fahmta.accountingweb.co.uk^
 ||fahmta.arrse.co.uk^
 ||fahmta.baby-magazine.co.uk^
@@ -148861,6 +148871,7 @@
 ||ferlinwaffen.com^
 ||ferm-pandrecht.live^
 ||fermacc.cc^
+||fermagefrauen.cfd^
 ||fermasosedi.ru^
 ||fermataintima.com^
 ||fermatapodler.cyou^
@@ -149023,6 +149034,7 @@
 ||ferylyxai.shop^
 ||ferziendfljud.site^
 ||fesaugaibs.com^
+||fescuesbracky.cyou^
 ||fesecrxmwowzq.site^
 ||feselsbela.cyou^
 ||fesig.keepsakequilting.com^
@@ -262404,6 +262416,7 @@
 ||mnbvpo8trk.com^
 ||mnbyto.goo-net.com^
 ||mncbqobkfv.com^
+||mncknwobhuwac.space^
 ||mncmedia.co.kr^
 ||mncovidresponse.com^
 ||mncvjhg.com^
@@ -279711,6 +279724,7 @@
 ||nvgnealcimsdq.space^
 ||nvgst8gvjy.com^
 ||nvhao.com^
+||nvhgvphcxwdhx.website^
 ||nvhlzr.kosmetikfuchs.de^
 ||nvi-dns.bitdefender.net^
 ||nvidia-graphics.top^
@@ -281156,6 +281170,7 @@
 ||ocbtpubcaowl.com^
 ||ocbv0.baiyangzs.com^
 ||ocbvilarlp.in^
+||ocbwmegh.in^
 ||ocbzhqjomdmxa.space^
 ||occamedgetech.com^
 ||occasionak.com^
@@ -285079,6 +285094,7 @@
 ||ommateabeanos.com^
 ||ommcrywbemojn.space^
 ||ommwrhyrcbgl.com^
+||ommzokyc.com^
 ||omn.americanexpress.com^
 ||omn.costumesupercenter.com^
 ||omn.crackle.com^
@@ -310067,6 +310083,7 @@
 ||proof.vertumotors.com^
 ||proofbilling.xyz^
 ||proofchainguard.xyz^
+||proofcherubsallasch.qpon^
 ||proofconvert.com^
 ||proofdelivery.xyz^
 ||prooffactor.com^
@@ -310406,6 +310423,7 @@
 ||proudflex.org^
 ||proudlyfunkywanderer.com^
 ||proudlytap.com^
+||proudradish.com^
 ||prouesse-finthrapro.com^
 ||prounlock.org^
 ||proupwholesale.com^
@@ -310837,6 +310855,7 @@
 ||prudyascape.com^
 ||pruebascol.arin-innovation.com^
 ||pruefautomation.de^
+||pruertpexofjf.online^
 ||prufenzo.xyz^
 ||prugskh.com^
 ||prugskh.net^
@@ -313589,6 +313608,7 @@
 ||pyro-expression.com^
 ||pyro-max.com^
 ||pyroforms.at^
+||pyroidcardia.qpon^
 ||pyroium.net^
 ||pyronex.click^
 ||pyrqavelnomdarex.com^
@@ -318161,6 +318181,7 @@
 ||qyxrwl.com^
 ||qyysqs.color4care.no^
 ||qyyvoquib.com^
+||qyzqivswtpxff.website^
 ||qyzyd.top^
 ||qz-whatsapp.com^
 ||qz.ascilldeflesh.shop^
@@ -324820,6 +324841,7 @@
 ||reverencestunbreathing.com^
 ||reverendcheesydimly.com^
 ||reverendfry.com^
+||reveresbilsted.qpon^
 ||reversachaque.com^
 ||reverse-office.com^
 ||reversebanking.xyz^
@@ -393084,6 +393106,7 @@
 ||staxinos-fr.fr^
 ||staxinos-france.fr^
 ||staxinosfr.fr^
+||staxwbrw.com^
 ||stay-alive-office.com^
 ||stay-and-relax.com^
 ||stay-book-now.com^
@@ -399038,6 +399061,7 @@
 ||swaddleeaze.com^
 ||swadesh.pl^
 ||swadeshibhandar.com^
+||swaegoagzuctm.website^
 ||swaer268-maecser923.fastcreativescorp.su^
 ||swag.uz^
 ||swagatammobile.com^
@@ -428590,6 +428614,7 @@
 ||tuty.tutyiandsisu.com.au^
 ||tuudibopjoxmy.site^
 ||tuulelipp.jyrgenson.xyz^
+||tuumdollop.com^
 ||tuusi.com^
 ||tuusjwrgtxigs.space^
 ||tuv-wx.fit^
@@ -441838,6 +441863,7 @@
 ||viabeldumchan.com^
 ||viableconferfitting.com^
 ||viablehornsborn.com^
+||viablekimcheecommise.qpon^
 ||viables.cz.cc^
 ||viacasino-fr.fr^
 ||viacasino1.fr^
@@ -442313,6 +442339,7 @@
 ||vidientuvietnam247.com^
 ||vidigital.ru^
 ||vidikua.legfilm.ru^
+||vidimusagyria.qpon^
 ||vidioc.de^
 ||vidiofy.co^
 ||vidkidstrims.cfd^
@@ -456576,6 +456603,7 @@
 ||wjmrvxezaj.com^
 ||wjmuqxznbxbpw.website^
 ||wjmyfp.billetdavion.be^
+||wjnidjxjkingy.website^
 ||wjnyapp.wiki^
 ||wjoknteqd.com^
 ||wjopvkcozzxif.online^
@@ -462882,6 +462910,7 @@
 ||xmgxmkybnijnu.website^
 ||xmgysweb.com^
 ||xmh-resc.9icph.cn^
+||xmhusdidqnptw.site^
 ||xmhzh1235.com^
 ||xmiggrrnkvrzf.online^
 ||xmindchina.cn^
@@ -466244,6 +466273,7 @@
 ||yafctntxj.com^
 ||yafeva.site^
 ||yaffenbtrdlkx.website^
+||yafoivqxiuaby.online^
 ||yafsub.net^
 ||yaftt.net^
 ||yafzz.net^
@@ -467430,6 +467460,7 @@
 ||ygdvundpxjbbn.online^
 ||ygdwvwept.com^
 ||ygecho.wenz.de^
+||ygernechalcis.cyou^
 ||ygfesvqrqtwba.space^
 ||ygfjmbqlzqcbi.com^
 ||ygfqixub.com^
@@ -469177,6 +469208,7 @@
 ||yp.shuhuangge.org^
 ||yp0loy5lcl.com^
 ||ypa.focusoftime.com^
+||ypbdycgslddln.site^
 ||ypbfjo.paulsmith.co.jp^
 ||ypbvyc.mpa-pro.fr^
 ||ypby2.com^
