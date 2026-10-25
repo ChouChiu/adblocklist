@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - FULL - CHINA
-! Version: 2026-10-25 16:03:28
-! Last modified: 2026-10-25 16:03:28
-! Total count: 476464
+! Version: 2026-10-25 08:41:21
+! Last modified: 2026-10-25 08:41:21
+! Total count: 476486
 ! Allowlist count: 116
-! Blocklist count: 476348
+! Blocklist count: 476370
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -34353,6 +34353,7 @@
 ||alnazafat.com.pk^
 ||alngdwetstglj.site^
 ||alnhfq9ov4.com^
+||alnkhrhndzofe.online^
 ||alnop.skidznyc.com^
 ||alnqylqmzlbgb.top^
 ||alnqylqmzqjaw.top^
@@ -77229,6 +77230,7 @@
 ||bzkma.club^
 ||bzkrvmhamisiyw.com^
 ||bzkvsjes.info^
+||bzlhbajvnuatq.site^
 ||bzljqlx.elietahari.com^
 ||bzlmh.travelpro.com^
 ||bzlmtuniv.com^
@@ -80755,6 +80757,7 @@
 ||caroutletdigital.com^
 ||carp.amespacios.com^
 ||carp.spotonevent.no^
+||carpalsgeneuradiiamb.qpon^
 ||carpartlabflow.com^
 ||carpathiagroup.net^
 ||carpathiancapital-ai.com^
@@ -115355,6 +115358,7 @@
 ||dcjm-tms.hannoversche-volksbank.de^
 ||dcjm-tms.vb-mittelhessen.de^
 ||dcjm-tms.volksbank-stuttgart.de^
+||dcjmrcnsktjmj.space^
 ||dcjoj.clubmagichour.com^
 ||dcjvnjnkhanpk.space^
 ||dcjxowgfytohp.space^
@@ -135551,6 +135555,7 @@
 ||ehreer.com^
 ||ehrlgb.izlato.sk^
 ||ehrmannliving.com^
+||ehrpdehitrrma.space^
 ||ehrxthskewjm.com^
 ||ehrydnmdoe.com^
 ||ehrymwoiidbyr.space^
@@ -143994,6 +143999,7 @@
 ||exhibits86.com^
 ||exhibitsneeze.com^
 ||exhibittexasmaybel.com^
+||exhjzmogurbeq.site^
 ||exhtjkwfddpev.site^
 ||exhumedenabledrotated.qpon^
 ||exi8ef83z9.com^
@@ -147785,6 +147791,7 @@
 ||fbgamescheats.net^
 ||fbgamez.com^
 ||fbgbskzvbvzokr.com^
+||fbgebomymidwe.space^
 ||fbhuhqsoqtl.com^
 ||fbispdrlpngqv.space^
 ||fbjpji.europcar.es^
@@ -157651,6 +157658,7 @@
 ||frissekapitholm.live^
 ||frissekapitholm.net^
 ||fristreifum.sbs^
+||fristtaiahafretter.cfd^
 ||friswaarddijk.com^
 ||fritexiumprimo-app.com^
 ||fritexiumprimo-engine.com^
@@ -203865,6 +203873,7 @@
 ||ixia-lp.keysight.com^
 ||ixiaa.com^
 ||ixilodonticsmout.cyou^
+||ixiondartman.com^
 ||ixiservices.org^
 ||ixjnnlhp.fannur.com^
 ||ixjplbufdjnnz.website^
@@ -208553,6 +208562,7 @@
 ||jpkwoyveladnt.online^
 ||jpluzr.autoc-one.jp^
 ||jpmcqouplqkrwh.com^
+||jpmfsuoxmftku.site^
 ||jpmizunoshop.com^
 ||jpmj.dev^
 ||jpmnhg.everlane.com^
@@ -280118,6 +280128,7 @@
 ||nyxuguu.com^
 ||nyyed.com^
 ||nyygrxwrnuud.com^
+||nyyneamtxxdcv.site^
 ||nyypsdaxxfsbc.com^
 ||nyysubkgvbjhq.site^
 ||nyyubblecoproprietorships.info^
@@ -300741,6 +300752,7 @@
 ||pjcn.org^
 ||pjcummfj.svenskhandel.se^
 ||pjcvnamenr.com^
+||pjdakfbstctpnb.com^
 ||pjdjlrmelqxzh.site^
 ||pjdpsycbcmdns.website^
 ||pje.co.id^
@@ -315751,6 +315763,7 @@
 ||qqpmt.heyremmy.com^
 ||qqppz.com^
 ||qqpuygzonbens.website^
+||qqpwojgbqkvus.online^
 ||qqq937.com^
 ||qqqajygpfmdea.space^
 ||qqqbvlafzdqwr.space^
@@ -326829,6 +326842,7 @@
 ||rkoofgxarguv.com^
 ||rkozoima.com^
 ||rkpjy.georgerichards.ca^
+||rkplwnnwdmtec.site^
 ||rkpolos.com^
 ||rkpysrmmnhhwi.online^
 ||rkqfgycnzlatb.online^
@@ -396882,6 +396896,7 @@
 ||sujobjvkilma.in^
 ||sujon.safetylearning.com.au^
 ||sukatoro.com^
+||sukbrljztfujz.online^
 ||sukces.pl^
 ||sukceszarzadown-official.com^
 ||sukceszarzadown.com^
@@ -410312,6 +410327,7 @@
 ||thankdilapidation.com^
 ||thankfulabash.com^
 ||thankfuldirection.com^
+||thankfulscarf.com^
 ||thankfultale.pro^
 ||thankkks.com^
 ||thanks.heinemann.com^
@@ -416660,6 +416676,7 @@
 ||topsewingmachine.com^
 ||topsexcams.club^
 ||topsexmovs.com^
+||topsgeneral.cfd^
 ||topshineauto.no^
 ||topshopbrand.com^
 ||topshopdeal.com^
@@ -439217,6 +439234,7 @@
 ||vbh66.xyz^
 ||vbhbzhjaeudztw.com^
 ||vbhgjhj.premium-sofas.com^
+||vbhqplnxaqgbb.space^
 ||vbi-cantonalbank.ch^
 ||vbihcm.alaiyeresorthotel.com^
 ||vbimnxpciswdd.site^
@@ -447968,6 +447986,7 @@
 ||vvnpb.com^
 ||vvnsw.swolverine.com^
 ||vvnxijvn.masseyservices.com^
+||vvnzevsbjmvtn.online^
 ||vvocm.com^
 ||vvogrqq6r.com^
 ||vvolnzdglprvf.store^
@@ -464491,6 +464510,7 @@
 ||xq5tf4nfccrb.info^
 ||xq6-rm.fit^
 ||xq6-rm.work^
+||xqaumfyji.com^
 ||xqb.io^
 ||xqblnei.cn^
 ||xqcddwvyvoubd.space^
@@ -465090,6 +465110,7 @@
 ||xuj.museauandco.com^
 ||xuj.ruedesplantes.com^
 ||xujpudkzmfc.com^
+||xujrbpvwwaspc.online^
 ||xukekk.oshkosh.com^
 ||xukijia.com^
 ||xukkp231.my.id^
@@ -470056,6 +470077,7 @@
 ||ywttjedowyfym.site^
 ||ywugyssrmkvat.website^
 ||ywums.compensation.help^
+||ywuxuknjofgmt.space^
 ||ywuymunqudyez.eu^
 ||ywuzuazsjnzto.online^
 ||ywwm.net^
