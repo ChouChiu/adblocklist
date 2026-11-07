@@ -1,6 +1,6 @@
 ! Title: AdBlocklist - LITE - ALL
-! Version: 2026-11-07 10:55:28
-! Last modified: 2026-11-07 10:55:28
+! Version: 2026-11-07 19:58:24
+! Last modified: 2026-11-07 19:58:24
 ! Total count: 62632
 ! Allowlist count: 92
 ! Blocklist count: 62540
@@ -33699,7 +33699,6 @@
 ||masculine-employment.com^
 ||masdkv6.3g.qq.com^
 ||mashlamvaginas.cfd^
-||masklink.org^
 ||maskmonopoly.com^
 ||masonerthoria.shop^
 ||masonplantsirresponsibility.com^
@@ -43284,6 +43283,7 @@
 ||r.99waiyu.com^
 ||r.apkpure.net^
 ||r.biotrck.com^
+||r.brandreward.com^
 ||r.browser.miui.com^
 ||r.buk5bovxwx3mjucviwifevv274k9jr.cyou^
 ||r.cdnpure.com^

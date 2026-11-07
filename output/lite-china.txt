@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - LITE - CHINA
-! Version: 2026-11-07 10:55:28
-! Last modified: 2026-11-07 10:55:28
-! Total count: 61012
+! Version: 2026-11-07 19:58:24
+! Last modified: 2026-11-07 19:58:24
+! Total count: 61011
 ! Allowlist count: 92
-! Blocklist count: 60920
+! Blocklist count: 60919
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -32742,7 +32742,6 @@
 ||masculine-employment.com^
 ||masdkv6.3g.qq.com^
 ||mashlamvaginas.cfd^
-||masklink.org^
 ||maskmonopoly.com^
 ||masonerthoria.shop^
 ||masonplantsirresponsibility.com^
