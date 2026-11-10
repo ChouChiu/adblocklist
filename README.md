@@ -1,6 +1,6 @@
 # adblocklist
 
-> 最后更新: 2026-11-10 12:17:04 | 规则总数: 515,422 | 规则源状态: 36/36 正常
+> 最后更新: 2026-11-10 21:41:36 | 规则总数: 515,466 | 规则源状态: 36/36 正常
 
 定时从多个上游规则源同步规则，完成解析、规范化、去重与子域名剪枝，生成 AdGuard / Adblock Plus 兼容的规则订阅。
 
@@ -10,15 +10,15 @@
 
 | 版本 | 区域 | 文件名 | 规则数 | 白名单 | 适用场景 | 订阅链接 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| lite | china | `lite-china.txt` | 60,689 | 92 | 国内精简，适合低配路由器与日常免维护 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-china.txt) / [本地](output/lite-china.txt) |
-| lite | overseas | `lite-overseas.txt` | 62,262 | 92 | 海外精简，适合轻量海淘与海外网页 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-overseas.txt) / [本地](output/lite-overseas.txt) |
-| lite | all | `lite-all.txt` | 62,311 | 92 | 全域精简，零误杀，适合路由器与电视盒子 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-all.txt) / [本地](output/lite-all.txt) |
-| standard | china | `standard-china.txt` | 346,496 | 116 | 国内标准，强力过滤国内 App 与网页广告 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-china.txt) / [本地](output/standard-china.txt) |
-| standard | overseas | `standard-overseas.txt` | 367,399 | 115 | 海外标准，强力过滤海外广告与跟踪网络 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-overseas.txt) / [本地](output/standard-overseas.txt) |
-| standard | all | `standard-all.txt` | 368,664 | 116 | 全域标准，平衡拦截率与稳定性，推荐主力使用 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-all.txt) / [本地](output/standard-all.txt) |
-| full | china | `full-china.txt` | 474,353 | 116 | 国内全量，针对国内生态的深度拦截 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-china.txt) / [本地](output/full-china.txt) |
-| full | overseas | `full-overseas.txt` | 505,371 | 115 | 海外全量，针对海外生态的深度拦截 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-overseas.txt) / [本地](output/full-overseas.txt) |
-| full | all | `full-all.txt` | 515,422 | 116 | 全域全量，高强度去广告与深层隐私阻断 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-all.txt) / [本地](output/full-all.txt) |
+| lite | china | `lite-china.txt` | 60,154 | 92 | 国内精简，适合低配路由器与日常免维护 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-china.txt) / [本地](output/lite-china.txt) |
+| lite | overseas | `lite-overseas.txt` | 61,727 | 92 | 海外精简，适合轻量海淘与海外网页 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-overseas.txt) / [本地](output/lite-overseas.txt) |
+| lite | all | `lite-all.txt` | 61,776 | 92 | 全域精简，零误杀，适合路由器与电视盒子 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/lite-all.txt) / [本地](output/lite-all.txt) |
+| standard | china | `standard-china.txt` | 346,666 | 116 | 国内标准，强力过滤国内 App 与网页广告 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-china.txt) / [本地](output/standard-china.txt) |
+| standard | overseas | `standard-overseas.txt` | 367,571 | 115 | 海外标准，强力过滤海外广告与跟踪网络 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-overseas.txt) / [本地](output/standard-overseas.txt) |
+| standard | all | `standard-all.txt` | 368,834 | 116 | 全域标准，平衡拦截率与稳定性，推荐主力使用 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/standard-all.txt) / [本地](output/standard-all.txt) |
+| full | china | `full-china.txt` | 474,523 | 116 | 国内全量，针对国内生态的深度拦截 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-china.txt) / [本地](output/full-china.txt) |
+| full | overseas | `full-overseas.txt` | 505,413 | 115 | 海外全量，针对海外生态的深度拦截 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-overseas.txt) / [本地](output/full-overseas.txt) |
+| full | all | `full-all.txt` | 515,466 | 116 | 全域全量，高强度去广告与深层隐私阻断 | [Raw](https://raw.githubusercontent.com/chouchiu/adblocklist/main/output/full-all.txt) / [本地](output/full-all.txt) |
 
 ### 版本说明
 - lite（精简版）：只收录 OISD Small、AWAvenue、Peter Lowe 等极低误杀的核心源，适合路由器、智能电视。
@@ -34,7 +34,7 @@
 | 规则源 | 格式 | 区域 | 层级 | 状态 | 优先级 | 采纳数 | 上游地址 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | AWAvenue 秋风广告规则 | hosts | china | lite | 正常 | 100 | 1,914 | [访问](https://awavenue.top/) |
-| OISD (Small) | adblock | all | lite | 正常 | 95 | 60,565 | [访问](https://oisd.nl/) |
+| OISD (Small) | adblock | all | lite | 正常 | 95 | 60,030 | [访问](https://oisd.nl/) |
 | Peter Lowe's List | adblock | overseas | lite | 正常 | 95 | 3,556 | [访问](https://pgl.yoyo.org/adservers/) |
 | HaGeZi's Multi PRO | adblock | all | standard | 正常 | 92 | 223,581 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's DoH/VPN/Proxy Bypass | adblock | all | standard | 正常 | 90 | 16,362 | [访问](https://github.com/hagezi/dns-blocklists) |
@@ -48,7 +48,7 @@
 | HaGeZi's Native Tracker (LG webOS TV) | adblock | all | standard | 正常 | 85 | 315 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's Native Tracker (Windows & Office) | adblock | all | standard | 正常 | 85 | 309 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's Native Tracker (Amazon) | adblock | overseas | standard | 正常 | 85 | 373 | [访问](https://github.com/hagezi/dns-blocklists) |
-| AdGuard DNS Filter | adblock | all | standard | 正常 | 90 | 187,562 | [访问](https://github.com/AdguardTeam/HostlistsRegistry) |
+| AdGuard DNS Filter | adblock | all | standard | 正常 | 90 | 187,735 | [访问](https://github.com/AdguardTeam/HostlistsRegistry) |
 | StevenBlack Unified Hosts | hosts | overseas | standard | 正常 | 85 | 78,168 | [访问](https://github.com/StevenBlack/hosts) |
 | AdAway Default Blocklist | hosts | all | standard | 正常 | 85 | 6,520 | [访问](https://adaway.org/) |
 | SmartTV Blocklist (AGH) | adblock | all | standard | 正常 | 85 | 150 | [访问](https://github.com/Perflyst/PiHoleBlocklist) |
@@ -59,15 +59,15 @@
 | CJX's Annoyance List | adblock | china | standard | 正常 | 80 | 164 | [访问](https://github.com/cjx82630/cjxlist) |
 | 乘风视频过滤规则 (xinggsf) | adblock | china | standard | 正常 | 80 | 29 | [访问](https://github.com/xinggsf/Adblock-Plus-Rule) |
 | 乘风通用过滤规则 (xinggsf) | adblock | china | standard | 正常 | 80 | 163 | [访问](https://github.com/xinggsf/Adblock-Plus-Rule) |
-| EasyList China | adblock | china | standard | 正常 | 80 | 6,059 | [访问](https://easylist.to/) |
-| EasyPrivacy | adblock | all | standard | 正常 | 80 | 44,685 | [访问](https://easylist.to/) |
+| EasyList China | adblock | china | standard | 正常 | 80 | 6,060 | [访问](https://easylist.to/) |
+| EasyPrivacy | adblock | all | standard | 正常 | 80 | 44,684 | [访问](https://easylist.to/) |
 | Dan Pollock's hosts | hosts | overseas | standard | 正常 | 75 | 12,965 | [访问](https://someonewhocares.org/hosts/) |
 | 1024_hosts | hosts | china | standard | 正常 | 75 | 3,224 | [访问](https://github.com/Goooler/1024_hosts) |
 | HaGeZi's Native Tracker (TikTok) | adblock | china | standard | 正常 | 85 | 545 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's Native Tracker (Roku) | adblock | overseas | standard | 正常 | 85 | 57 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's The World's Most Abused TLDs (Spam TLDs) | adblock | all | full | 正常 | 90 | 10 | [访问](https://github.com/hagezi/dns-blocklists) |
 | HaGeZi's Threat Intelligence Feeds (TIF Mini) | adblock | all | full | 正常 | 95 | 186,982 | [访问](https://github.com/hagezi/dns-blocklists) |
-| OISD (Big) | adblock | overseas | full | 正常 | 75 | 228,200 | [访问](https://oisd.nl/) |
+| OISD (Big) | adblock | overseas | full | 正常 | 75 | 225,951 | [访问](https://oisd.nl/) |
 | anti-AD | domains | china | full | 正常 | 70 | 110,474 | [访问](https://anti-ad.net/) |
 
 ---
