@@ -1,7 +1,7 @@
 {
-  "startTime": "2026-11-11 22:31:54",
-  "endTime": "2026-11-11 22:32:03",
-  "durationMs": 9371,
+  "startTime": "2026-11-12 12:19:06",
+  "endTime": "2026-11-12 12:19:14",
+  "durationMs": 8530,
   "totalSourcesConfigured": 36,
   "totalSourcesEnabled": 36,
   "totalSourcesSuccess": 36,
@@ -22,7 +22,7 @@
         "reason": "GitHub 热门中文广告规则项目，超低内存占用且高频维护"
       },
       "success": true,
-      "durationMs": 97,
+      "durationMs": 79,
       "rawLineCount": 1954,
       "validRuleCount": 1914
     },
@@ -41,9 +41,9 @@
         "reason": "国际权威低误杀规则，遵循 Block Don't break 哲学"
       },
       "success": true,
-      "durationMs": 1504,
-      "rawLineCount": 60441,
-      "validRuleCount": 60329
+      "durationMs": 1002,
+      "rawLineCount": 62040,
+      "validRuleCount": 61928
     },
     {
       "source": {
@@ -60,7 +60,7 @@
         "reason": "历史悠久、审核严格，社区公认零误杀声誉"
       },
       "success": true,
-      "durationMs": 1126,
+      "durationMs": 857,
       "rawLineCount": 3582,
       "validRuleCount": 3558
     },
@@ -79,9 +79,9 @@
         "reason": "全球公认的高质量综合过滤源，全方位阻断广告、追踪器与遥测"
       },
       "success": true,
-      "durationMs": 73,
-      "rawLineCount": 223975,
-      "validRuleCount": 223581
+      "durationMs": 75,
+      "rawLineCount": 224744,
+      "validRuleCount": 224350
     },
     {
       "source": {
@@ -98,9 +98,9 @@
         "reason": "防止应用、电视与移动端硬编码 DoH 逃避局域网 DNS 去广告防护"
       },
       "success": true,
-      "durationMs": 30,
-      "rawLineCount": 16442,
-      "validRuleCount": 16365
+      "durationMs": 25,
+      "rawLineCount": 16494,
+      "validRuleCount": 16417
     },
     {
       "source": {
@@ -117,9 +117,9 @@
         "reason": "有效防范网络黑产与欺诈钓鱼，提供基础金融安全防护"
       },
       "success": true,
-      "durationMs": 88,
-      "rawLineCount": 18850,
-      "validRuleCount": 18836
+      "durationMs": 26,
+      "rawLineCount": 18862,
+      "validRuleCount": 18848
     },
     {
       "source": {
@@ -136,9 +136,9 @@
         "reason": "专项阻断高频弹窗域名，显著提升网页浏览体验"
       },
       "success": true,
-      "durationMs": 301,
-      "rawLineCount": 76914,
-      "validRuleCount": 76882
+      "durationMs": 40,
+      "rawLineCount": 77191,
+      "validRuleCount": 77159
     },
     {
       "source": {
@@ -155,7 +155,7 @@
         "reason": "有效遏制恶意软件利用动态 DNS 建立隐蔽 C2 通信"
       },
       "success": true,
-      "durationMs": 95,
+      "durationMs": 28,
       "rawLineCount": 1533,
       "validRuleCount": 1519
     },
@@ -174,7 +174,7 @@
         "reason": "阻断恶意推广下载器与捆绑安装包传播路径"
       },
       "success": true,
-      "durationMs": 77,
+      "durationMs": 79,
       "rawLineCount": 1115,
       "validRuleCount": 1099
     },
@@ -193,7 +193,7 @@
         "reason": "遏制小米生态设备自带开屏与遥测数据回传"
       },
       "success": true,
-      "durationMs": 75,
+      "durationMs": 79,
       "rawLineCount": 363,
       "validRuleCount": 342
     },
@@ -212,7 +212,7 @@
         "reason": "遏制华为生态设备自带广告与用户行为数据回传"
       },
       "success": true,
-      "durationMs": 96,
+      "durationMs": 79,
       "rawLineCount": 160,
       "validRuleCount": 136
     },
@@ -231,7 +231,7 @@
         "reason": "针对三星设备自带遥测与推送广告的专项过滤"
       },
       "success": true,
-      "durationMs": 79,
+      "durationMs": 11,
       "rawLineCount": 215,
       "validRuleCount": 201
     },
@@ -250,7 +250,7 @@
         "reason": "家庭大屏去广告，有效改善 LG 电视使用体验"
       },
       "success": true,
-      "durationMs": 115,
+      "durationMs": 18,
       "rawLineCount": 329,
       "validRuleCount": 315
     },
@@ -269,7 +269,7 @@
         "reason": "遏制操作系统级别的后台隐蔽数据追踪"
       },
       "success": true,
-      "durationMs": 106,
+      "durationMs": 79,
       "rawLineCount": 379,
       "validRuleCount": 309
     },
@@ -288,7 +288,7 @@
         "reason": "海外智能家居设备遥测阻断专项补充"
       },
       "success": true,
-      "durationMs": 79,
+      "durationMs": 18,
       "rawLineCount": 387,
       "validRuleCount": 373
     },
@@ -307,9 +307,9 @@
         "reason": "结合 AdGuard Base、Tracking 和 EasyList，由官方团队维护"
       },
       "success": true,
-      "durationMs": 230,
-      "rawLineCount": 190512,
-      "validRuleCount": 189592
+      "durationMs": 113,
+      "rawLineCount": 190749,
+      "validRuleCount": 189829
     },
     {
       "source": {
@@ -326,7 +326,7 @@
         "reason": "GitHub 2.7w+ stars，全球最广泛使用的 hosts 拦截源"
       },
       "success": true,
-      "durationMs": 51,
+      "durationMs": 78,
       "rawLineCount": 85034,
       "validRuleCount": 78168
     },
@@ -345,7 +345,7 @@
         "reason": "移动端广告拦截基石，覆盖常用 App 广告与追踪域名"
       },
       "success": true,
-      "durationMs": 231,
+      "durationMs": 143,
       "rawLineCount": 10608,
       "validRuleCount": 6520
     },
@@ -364,7 +364,7 @@
         "reason": "家庭场景针对智能电视广告的专用补充源"
       },
       "success": true,
-      "durationMs": 72,
+      "durationMs": 79,
       "rawLineCount": 292,
       "validRuleCount": 150
     },
@@ -383,7 +383,7 @@
         "reason": "家庭游戏设备广告拦截专项补充"
       },
       "success": true,
-      "durationMs": 22,
+      "durationMs": 17,
       "rawLineCount": 90,
       "validRuleCount": 17
     },
@@ -402,7 +402,7 @@
         "reason": "覆盖国内主流品牌 OPPO/Realme 移动设备的原生去广告需求"
       },
       "success": true,
-      "durationMs": 104,
+      "durationMs": 79,
       "rawLineCount": 503,
       "validRuleCount": 489
     },
@@ -421,7 +421,7 @@
         "reason": "覆盖国内主流品牌 Vivo/iQOO 移动设备的原生去广告需求"
       },
       "success": true,
-      "durationMs": 108,
+      "durationMs": 79,
       "rawLineCount": 257,
       "validRuleCount": 243
     },
@@ -440,7 +440,7 @@
         "reason": "针对 iOS/macOS 生态的遥测与内置广告过滤"
       },
       "success": true,
-      "durationMs": 78,
+      "durationMs": 79,
       "rawLineCount": 118,
       "validRuleCount": 104
     },
@@ -459,7 +459,7 @@
         "reason": "国内知名维护者 CJX 维护的烦人元素补充规则"
       },
       "success": true,
-      "durationMs": 82,
+      "durationMs": 16,
       "rawLineCount": 1864,
       "validRuleCount": 164
     },
@@ -478,7 +478,7 @@
         "reason": "针对视频流媒体广告的专项规则"
       },
       "success": true,
-      "durationMs": 94,
+      "durationMs": 79,
       "rawLineCount": 181,
       "validRuleCount": 29
     },
@@ -497,7 +497,7 @@
         "reason": "与乘风视频规则配套，由资深维护者持续维护的经典中文规则"
       },
       "success": true,
-      "durationMs": 115,
+      "durationMs": 15,
       "rawLineCount": 1249,
       "validRuleCount": 163
     },
@@ -516,9 +516,9 @@
         "reason": "Adblock Plus 官方中国区基础规则库"
       },
       "success": true,
-      "durationMs": 99,
-      "rawLineCount": 17930,
-      "validRuleCount": 6071
+      "durationMs": 83,
+      "rawLineCount": 17936,
+      "validRuleCount": 6077
     },
     {
       "source": {
@@ -535,9 +535,9 @@
         "reason": "全球公认的跟踪器拦截行业基准"
       },
       "success": true,
-      "durationMs": 94,
-      "rawLineCount": 54466,
-      "validRuleCount": 44684
+      "durationMs": 89,
+      "rawLineCount": 54474,
+      "validRuleCount": 44697
     },
     {
       "source": {
@@ -554,7 +554,7 @@
         "reason": "资深安全维护者运营数十年的经典源"
       },
       "success": true,
-      "durationMs": 239,
+      "durationMs": 178,
       "rawLineCount": 13417,
       "validRuleCount": 13084
     },
@@ -573,7 +573,7 @@
         "reason": "补充穿山甲、优量汇等移动端 SDK 域名"
       },
       "success": true,
-      "durationMs": 72,
+      "durationMs": 77,
       "rawLineCount": 3242,
       "validRuleCount": 3224
     },
@@ -592,7 +592,7 @@
         "reason": "补充短视频与海外移动端原生追踪器过滤"
       },
       "success": true,
-      "durationMs": 139,
+      "durationMs": 77,
       "rawLineCount": 559,
       "validRuleCount": 545
     },
@@ -611,7 +611,7 @@
         "reason": "家庭场景下海外主流智能电视去广告补充"
       },
       "success": true,
-      "durationMs": 94,
+      "durationMs": 20,
       "rawLineCount": 71,
       "validRuleCount": 57
     },
@@ -630,7 +630,7 @@
         "reason": "有效防范黑产利用廉价/免费顶级域名批量注册钓鱼欺诈站点"
       },
       "success": true,
-      "durationMs": 94,
+      "durationMs": 20,
       "rawLineCount": 144,
       "validRuleCount": 10
     },
@@ -649,9 +649,9 @@
         "reason": "剔除死链与失效域名，保留高危活跃威胁，兼顾极高防御强度与文件体积控制"
       },
       "success": true,
-      "durationMs": 401,
-      "rawLineCount": 185724,
-      "validRuleCount": 185676
+      "durationMs": 350,
+      "rawLineCount": 186001,
+      "validRuleCount": 185953
     },
     {
       "source": {
@@ -668,9 +668,9 @@
         "reason": "为海外全量版提供高覆盖率的权威全量源"
       },
       "success": true,
-      "durationMs": 1862,
-      "rawLineCount": 226290,
-      "validRuleCount": 226012
+      "durationMs": 1133,
+      "rawLineCount": 227760,
+      "validRuleCount": 227481
     },
     {
       "source": {
@@ -687,16 +687,16 @@
         "reason": "规则覆盖面极广，纳入 full 级别并依靠排除表防误杀"
       },
       "success": true,
-      "durationMs": 416,
+      "durationMs": 289,
       "rawLineCount": 109244,
       "validRuleCount": 109042
     }
   ],
-  "totalRawRules": 1308434,
-  "totalValidNormalizedRules": 1269803,
-  "totalExcludedCount": 1451,
+  "totalRawRules": 1313141,
+  "totalValidNormalizedRules": 1274514,
+  "totalExcludedCount": 1452,
   "totalWhitelistedCount": 109,
-  "totalDeduplicatedCount": 757055,
+  "totalDeduplicatedCount": 760918,
   "matrixStats": [
     {
       "matrixKey": "lite-china",
@@ -704,10 +704,10 @@
       "region": "china",
       "fileName": "lite-china.txt",
       "filePath": "output/lite-china.txt",
-      "totalCount": 60453,
+      "totalCount": 62052,
       "allowCount": 92,
-      "blockCount": 60361,
-      "fileSizeBytes": 1366538
+      "blockCount": 61960,
+      "fileSizeBytes": 1406300
     },
     {
       "matrixKey": "lite-overseas",
@@ -715,10 +715,10 @@
       "region": "overseas",
       "fileName": "lite-overseas.txt",
       "filePath": "output/lite-overseas.txt",
-      "totalCount": 62028,
+      "totalCount": 63626,
       "allowCount": 92,
-      "blockCount": 61936,
-      "fileSizeBytes": 1396518
+      "blockCount": 63534,
+      "fileSizeBytes": 1436259
     },
     {
       "matrixKey": "lite-all",
@@ -726,10 +726,10 @@
       "region": "all",
       "fileName": "lite-all.txt",
       "filePath": "output/lite-all.txt",
-      "totalCount": 62077,
+      "totalCount": 63675,
       "allowCount": 92,
-      "blockCount": 61985,
-      "fileSizeBytes": 1397668
+      "blockCount": 63583,
+      "fileSizeBytes": 1437409
     },
     {
       "matrixKey": "standard-china",
@@ -737,10 +737,10 @@
       "region": "china",
       "fileName": "standard-china.txt",
       "filePath": "output/standard-china.txt",
-      "totalCount": 347264,
+      "totalCount": 347732,
       "allowCount": 116,
-      "blockCount": 347148,
-      "fileSizeBytes": 8055142
+      "blockCount": 347616,
+      "fileSizeBytes": 8066614
     },
     {
       "matrixKey": "standard-overseas",
@@ -748,10 +748,10 @@
       "region": "overseas",
       "fileName": "standard-overseas.txt",
       "filePath": "output/standard-overseas.txt",
-      "totalCount": 368259,
+      "totalCount": 368742,
       "allowCount": 115,
-      "blockCount": 368144,
-      "fileSizeBytes": 8510747
+      "blockCount": 368627,
+      "fileSizeBytes": 8522510
     },
     {
       "matrixKey": "standard-all",
@@ -759,10 +759,10 @@
       "region": "all",
       "fileName": "standard-all.txt",
       "filePath": "output/standard-all.txt",
-      "totalCount": 369525,
+      "totalCount": 370007,
       "allowCount": 116,
-      "blockCount": 369409,
-      "fileSizeBytes": 8531604
+      "blockCount": 369891,
+      "fileSizeBytes": 8543350
     },
     {
       "matrixKey": "full-china",
@@ -770,10 +770,10 @@
       "region": "china",
       "fileName": "full-china.txt",
       "filePath": "output/full-china.txt",
-      "totalCount": 471999,
+      "totalCount": 472796,
       "allowCount": 116,
-      "blockCount": 471883,
-      "fileSizeBytes": 10672759
+      "blockCount": 472680,
+      "fileSizeBytes": 10694040
     },
     {
       "matrixKey": "full-overseas",
@@ -781,10 +781,10 @@
       "region": "overseas",
       "fileName": "full-overseas.txt",
       "filePath": "output/full-overseas.txt",
-      "totalCount": 505064,
+      "totalCount": 505681,
       "allowCount": 115,
-      "blockCount": 504949,
-      "fileSizeBytes": 11581856
+      "blockCount": 505566,
+      "fileSizeBytes": 11599383
     },
     {
       "matrixKey": "full-all",
@@ -792,10 +792,10 @@
       "region": "all",
       "fileName": "full-all.txt",
       "filePath": "output/full-all.txt",
-      "totalCount": 512748,
+      "totalCount": 513596,
       "allowCount": 116,
-      "blockCount": 512632,
-      "fileSizeBytes": 11715750
+      "blockCount": 513480,
+      "fileSizeBytes": 11738665
     }
   ]
 }
