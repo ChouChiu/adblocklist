@@ -256,7 +256,7 @@ sources:
   - name: "Game Console Adblock List"
     url: "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/GameConsoleAdblockList.txt"
     format: "adblock"
-    region: "overseas"
+    region: "all"
     tier: "standard"
     type: "block"
     enabled: true
@@ -388,7 +388,7 @@ sources:
   - name: "HaGeZi's Native Tracker (TikTok)"
     url: "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt"
     format: "adblock"
-    region: "china"
+    region: "all"
     tier: "standard"
     type: "block"
     enabled: true
@@ -456,3 +456,39 @@ sources:
     homepage: "https://anti-ad.net/"
     description: "国内全量广告与隐私追踪过滤源（9w+ 规则）"
     reason: "规则覆盖面极广，纳入 full 级别并依靠排除表防误杀"
+
+  - name: "URLhaus Malicious URL Blocklist"
+    url: "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt"
+    format: "adblock"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 90
+    homepage: "https://gitlab.com/malware-filter/urlhaus-filter"
+    description: "基于 abuse.ch URLhaus 的活跃恶意软件与木马分发域名阻断列表"
+    reason: "权威安全威胁情报上游，轻量高精准，补充恶意软件防护"
+
+  - name: "DandelionSprout's Anti-Malware List"
+    url: "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt"
+    format: "hosts"
+    region: "all"
+    tier: "standard"
+    type: "block"
+    enabled: true
+    priority: 85
+    homepage: "https://github.com/DandelionSprout/adfilt"
+    description: "拦截恶意软件、诈骗推广与伪装下载站点的轻量级 Hosts 源"
+    reason: "社区知名高频维护反恶意软件上游，零误杀口碑良好"
+
+  - name: "Phishing Army Blocklist"
+    url: "https://phishing.army/download/phishing_army_blocklist.txt"
+    format: "domains"
+    region: "all"
+    tier: "full"
+    type: "block"
+    enabled: true
+    priority: 88
+    homepage: "https://phishing.army/"
+    description: "汇总 PhishTank、OpenPhish 等情报的钓鱼网站域名阻断列表"
+    reason: "专项强化全量版反钓鱼与账号防盗安全防护"

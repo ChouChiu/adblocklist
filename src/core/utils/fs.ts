@@ -25,13 +25,6 @@ export function writeFileUtf8(filePath: string, content: string): void {
   writeFileSync(absPath, content, "utf-8");
 }
 
-/** Writes binary buffer to file safely. */
-export function writeFileBuffer(filePath: string, buffer: Uint8Array): void {
-  const absPath = resolve(filePath);
-  ensureDir(absPath, true);
-  writeFileSync(absPath, buffer);
-}
-
 /** Checks whether file exists. */
 export function fileExists(filePath: string): boolean {
   return existsSync(resolve(filePath));

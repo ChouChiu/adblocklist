@@ -2,18 +2,23 @@
 # 采用 Adblock Plus 格式 (@@||domain^)，生成时置顶输出并具有最高匹配优先级
 
 # 人工智能与大模型平台 (ChatGPT / Claude / Anthropic)
+@@||openai.com^
 @@||chatgpt.com^
 @@||oaistatic.com^
 @@||oaiusercontent.com^
 @@||claude.ai^
 @@||anthropic.com^
+@@||gemini.google.com^
 
 # 网络连通性探测与 Captive Portal 认证
 @@||detectportal.firefox.com^
 @@||msftncsi.com^
+@@||msftconnecttest.com^
 @@||captive.apple.com^
 @@||connectivitycheck.gstatic.com^
 @@||connectivitycheck.android.com^
+@@||connectivitycheck.platform.hicloud.com^
+@@||connect.rom.miui.com^
 
 # 人机验证与反机器人防伪 (Arkose Labs / FunCaptcha / Geetest / hCaptcha)
 @@||arkoselabs.com^
@@ -43,6 +48,7 @@
 @@||inews.gtimg.com^
 @@||qlogo.cn^
 @@||v.qq.com^
+@@||open.weixin.qq.com^
 
 # 阿里系电商与云服务 (淘宝、天猫、支付宝、菜鸟)
 @@||acs.m.taobao.com^
@@ -53,6 +59,7 @@
 @@||trade-acs.m.taobao.com^
 @@||m.alipay.com^
 @@||openapi.alipay.com^
+@@||qr.alipay.com^
 
 # 哔哩哔哩 (弹幕、直播、静态资源与核心 API)
 @@||broadcastlv.chat.bilibili.com^

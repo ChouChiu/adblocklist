@@ -1,12 +1,11 @@
-import type { ParsedRule } from "../../core";
+import { type ParsedRule, splitLines } from "../../core";
 import { cleanDomain, normalizeApex, toAdblockRule } from "../rule-normalizer";
 
 /** Parses plain domain list into standard DNS rules. */
 export function parseDomains(content: string, sourceName = "Domains"): ParsedRule[] {
   const rules: ParsedRule[] = [];
-  const lines = content.split(/\r?\n/);
 
-  for (const rawLine of lines) {
+  for (const rawLine of splitLines(content)) {
     let line = rawLine.trim();
 
     // Skip empty lines and comments
@@ -32,7 +31,3 @@ export function parseDomains(content: string, sourceName = "Domains"): ParsedRul
 
   return rules;
 }
-
-export const DomainsParser = {
-  parse: parseDomains,
-};

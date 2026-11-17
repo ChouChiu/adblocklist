@@ -12,8 +12,7 @@ export function formatBytes(bytes: number): string {
   return `${(bytes / k ** i).toFixed(2)} ${sizes[i]}`;
 }
 
-/** Pads number with leading zeros. */
-export function padZero(num: number, len = 2): string {
+function padZero(num: number, len = 2): string {
   return num.toString().padStart(len, "0");
 }
 

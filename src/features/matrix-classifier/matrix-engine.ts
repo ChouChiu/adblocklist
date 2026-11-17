@@ -7,9 +7,8 @@ import type {
   SourceConfig,
 } from "../../core";
 import { logger } from "../../core/utils/logger";
-import { formatBytes } from "../../core/utils/text";
-import { getFormattedDate } from "../../core/utils/text";
-import { exactDeduplicate, processRules } from "../rule-filter/deduplicator";
+import { formatBytes, getFormattedDate } from "../../core/utils/text";
+import { processRules } from "../rule-filter/deduplicator";
 import { filterExclusions } from "../rule-filter/exclusion-filter";
 import { resolveConflicts } from "../rule-filter/whitelist-engine";
 
@@ -34,13 +33,9 @@ export const DEFAULT_MAX_OUTPUT_SIZE_BYTES = 20 * 1024 * 1024; // 20MB limit
 
 /** Checks if source tier is eligible for target matrix scale. */
 export function isSourceEligibleForScale(sourceTier: ScaleTier, targetScale: ScaleTier): boolean {
-  if (targetScale === "lite") {
-    return sourceTier === "lite";
-  }
-  if (targetScale === "standard") {
-    return sourceTier === "lite" || sourceTier === "standard";
-  }
-  return true;
+  if (targetScale === "full") return true;
+  if (targetScale === "standard") return sourceTier !== "full";
+  return sourceTier === "lite";
 }
 
 /** Checks if source region is eligible for target matrix region. */
@@ -48,16 +43,7 @@ export function isSourceEligibleForRegion(
   sourceRegion: RegionScope,
   targetRegion: RegionScope,
 ): boolean {
-  if (targetRegion === "all") {
-    return true;
-  }
-  if (targetRegion === "china") {
-    return sourceRegion === "china" || sourceRegion === "all";
-  }
-  if (targetRegion === "overseas") {
-    return sourceRegion === "overseas" || sourceRegion === "all";
-  }
-  return false;
+  return targetRegion === "all" || sourceRegion === "all" || sourceRegion === targetRegion;
 }
 
 /** Generates subscription file metadata header. */
@@ -128,9 +114,8 @@ export function buildMatrix(
         }
       }
 
-      // Exclude infrastructure and CDN domains if not already excluded
-      const { kept: filteredBlockRules } =
-        exclusions.size > 0 ? filterExclusions(rawBlockRules, exclusions) : { kept: rawBlockRules };
+      // Filter exclusions if any were passed directly
+      const { kept: filteredBlockRules } = filterExclusions(rawBlockRules, exclusions);
 
       // Resolve whitelist conflicts (removes block rules if exact or parent domain is allowed)
       const { resolvedBlockRules, activeAllowRules } = resolveConflicts(
@@ -196,28 +181,30 @@ export function buildMatrix(
           "Matrix",
         );
 
-        // Binary search to find max block rules that fit within maxOutputSizeBytes
-        let low = 0;
-        let high = processedBlockRules.length;
-        let bestBlocks = processedBlockRules;
+        const baseBytes = composeContent(processedAllowRules, [
+          { domain: "", isWhitelist: false, syntax: "", sourceName: "" },
+        ]).bytes;
+        let usedBytes = baseBytes + 16; // Reserve margin for header digit-count differences
+        let keepCount = 0;
 
-        while (low <= high) {
-          const mid = Math.floor((low + high) / 2);
-          const candidateBlocks = processedBlockRules.slice(0, mid);
-          const test = composeContent(processedAllowRules, candidateBlocks);
-
-          if (test.bytes <= maxOutputSizeBytes) {
-            bestBlocks = candidateBlocks;
-            fileContent = test.content;
-            fileSizeBytes = test.bytes;
-            low = mid + 1;
-          } else {
-            high = mid - 1;
-          }
+        for (const rule of processedBlockRules) {
+          const lineBytes = Buffer.byteLength(rule.syntax, "utf-8") + 1;
+          if (usedBytes + lineBytes > maxOutputSizeBytes) break;
+          usedBytes += lineBytes;
+          keepCount++;
         }
 
-        totalCount = processedAllowRules.length + bestBlocks.length;
-        blockCount = bestBlocks.length;
+        let cappedBlocks = processedBlockRules.slice(0, keepCount);
+        let capped = composeContent(processedAllowRules, cappedBlocks);
+        while (capped.bytes > maxOutputSizeBytes && cappedBlocks.length > 0) {
+          cappedBlocks = cappedBlocks.slice(0, -1);
+          capped = composeContent(processedAllowRules, cappedBlocks);
+        }
+
+        fileContent = capped.content;
+        fileSizeBytes = capped.bytes;
+        totalCount = processedAllowRules.length + cappedBlocks.length;
+        blockCount = cappedBlocks.length;
       }
 
       const stats: MatrixItemStats = {
@@ -246,13 +233,3 @@ export function buildMatrix(
 
   return matrixResults;
 }
-
-export const MatrixEngine = {
-  SCALES,
-  REGIONS,
-  DEFAULT_MAX_OUTPUT_SIZE_BYTES,
-  isSourceEligibleForScale,
-  isSourceEligibleForRegion,
-  generateFileHeader,
-  buildMatrix,
-};

@@ -70,7 +70,3 @@ export function generateReadme(options: ReadmeGeneratorOptions): string {
 
   return rendered;
 }
-
-export const ReadmeGenerator = {
-  generate: generateReadme,
-};

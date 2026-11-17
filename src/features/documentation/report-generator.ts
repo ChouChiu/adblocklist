@@ -71,8 +71,3 @@ export function generateReports(
 
   return { mdPath, jsonPath };
 }
-
-export const ReportGenerator = {
-  generateMarkdown: generateReportMarkdown,
-  generate: generateReports,
-};

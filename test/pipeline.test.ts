@@ -1,7 +1,7 @@
 import { afterAll, beforeAll, describe, expect, it } from "bun:test";
 import { existsSync, readFileSync, rmSync } from "node:fs";
 import { ensureDir, writeFileUtf8 } from "../src/core";
-import { PipelineOrchestrator } from "../src/features/pipeline";
+import { runPipeline } from "../src/features/pipeline";
 
 describe("PipelineIntegration", () => {
   const testDir = "tmp-test-env";
@@ -97,7 +97,7 @@ sources:
   });
 
   it("should execute end-to-end pipeline and output 9 matrix files and reports", async () => {
-    const stats = await PipelineOrchestrator.run({
+    const stats = await runPipeline({
       configPath: testConfigPath,
       outputDir: testOutputDir,
     });

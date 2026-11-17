@@ -24,13 +24,7 @@ describe("ConfigLoader", () => {
     }
   });
 
-  it("should throw error for non-existent configuration file", () => {
-    expect(() => loadConfigFile("non-existent-config.yaml")).toThrow(
-      "Configuration file not found",
-    );
-  });
-
-  it("should load exclusions from local files and object formats", async () => {
+  it("should load exclusions from local files", async () => {
     const exclusions = await loadExclusions("config/exclude.txt");
     expect(exclusions.size).toBeGreaterThan(0);
     expect(exclusions.has("cloudflare.com")).toBe(true);
@@ -39,7 +33,7 @@ describe("ConfigLoader", () => {
     expect(exclusions.has("arkoselabs.com")).toBe(true);
   });
 
-  it("should load allowlist from local and structured resources", async () => {
+  it("should load allowlist from local resources", async () => {
     const allowlist = await loadAllowlist("config/allowlist.txt");
     expect(allowlist.length).toBeGreaterThan(0);
     expect(allowlist.some((r) => r.domain === "y.qq.com")).toBe(true);

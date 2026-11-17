@@ -37,7 +37,3 @@ export function parseRules(
 
   return parsed;
 }
-
-export const ParserRouter = {
-  parse: parseRules,
-};

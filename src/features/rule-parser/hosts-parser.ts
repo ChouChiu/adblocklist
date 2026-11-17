@@ -1,4 +1,4 @@
-import type { ParsedRule } from "../../core";
+import { type ParsedRule, splitLines } from "../../core";
 import { cleanDomain, normalizeApex, toAdblockRule } from "../rule-normalizer";
 
 const SINKHOLE_IPS = new Set(["0.0.0.0", "127.0.0.1", "::1", "::", "0"]);
@@ -6,9 +6,8 @@ const SINKHOLE_IPS = new Set(["0.0.0.0", "127.0.0.1", "::1", "::", "0"]);
 /** Parses hosts formatted files into standard DNS rules. */
 export function parseHosts(content: string, sourceName = "Hosts"): ParsedRule[] {
   const rules: ParsedRule[] = [];
-  const lines = content.split(/\r?\n/);
 
-  for (const rawLine of lines) {
+  for (const rawLine of splitLines(content)) {
     let line = rawLine.trim();
 
     // Skip empty lines and comment lines
@@ -46,7 +45,3 @@ export function parseHosts(content: string, sourceName = "Hosts"): ParsedRule[] 
 
   return rules;
 }
-
-export const HostsParser = {
-  parse: parseHosts,
-};

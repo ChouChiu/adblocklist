@@ -86,6 +86,15 @@ const MULTI_PART_TLDS = new Set([
   "net.ph",
   "edu.ph",
   "gov.ph",
+  "co.id",
+  "or.id",
+  "web.id",
+  "co.th",
+  "com.vn",
+  "net.vn",
+  "org.vn",
+  "com.pl",
+  "com.es",
 ]);
 
 const LOCAL_DOMAINS = new Set([
@@ -108,9 +117,11 @@ const DOMAIN_LABEL_REGEX = /^[a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?$/;
 
 /**
  * Validates and normalizes candidate domain; returns lowercase FQDN (Punycode if IDN) or null if invalid.
+ * Set `allowTld` to true only for explicit anchored TLD block rules (e.g. `||bid^`).
  */
-export function cleanDomain(input: string): string | null {
-  if (!input || input.length < 3 || input.length > 253) return null;
+export function cleanDomain(input: string, allowTld = false): string | null {
+  const minLen = allowTld ? 2 : 3;
+  if (!input || input.length < minLen || input.length > 253) return null;
 
   let domain = input.trim().toLowerCase();
 
@@ -137,7 +148,7 @@ export function cleanDomain(input: string): string | null {
   // Strip leading and trailing dots
   domain = domain.replace(/^\.+|\.+$/g, "");
 
-  if (domain.length < 3 || domain.length > 253) return null;
+  if (domain.length < minLen || domain.length > 253) return null;
 
   // Handle Internationalized Domain Names (IDN) by converting to Punycode
   if (/[^a-z0-9.-]/.test(domain)) {
@@ -156,7 +167,7 @@ export function cleanDomain(input: string): string | null {
   if (MULTI_PART_TLDS.has(domain)) return null;
 
   const labels = domain.split(".");
-  if (labels.length < 2) return null;
+  if (labels.length < (allowTld ? 1 : 2)) return null;
 
   for (const label of labels) {
     if (!label || label.length > 63 || !DOMAIN_LABEL_REGEX.test(label)) {
@@ -198,10 +209,3 @@ export function extractFld(domain: string): string {
 
   return `${parts[parts.length - 2]}.${parts[parts.length - 1]}`;
 }
-
-export const DomainValidator = {
-  cleanDomain,
-  normalizeApex,
-  extractFld,
-  MULTI_PART_TLDS,
-};

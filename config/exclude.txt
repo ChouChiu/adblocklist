@@ -122,8 +122,14 @@ android.clients.google.com
 accounts.google.com
 play.google.com
 *.connectivitycheck.android.com
+connectivitycheck.gstatic.com
 *.connectivitycheck.gstatic.com
+connectivitycheck.platform.hicloud.com
+connect.rom.miui.com
+wifi.vivo.com.cn
 clients3.google.com
+dl.google.com
+dl-ssl.google.com
 detectportal.firefox.com
 *.push.xiaomi.com
 *.xmpush.xiaomi.com

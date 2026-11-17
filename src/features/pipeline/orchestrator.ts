@@ -1,7 +1,6 @@
 import {
   type AppConfig,
   type MatrixItemStats,
-  type ParsedRule,
   type PipelineStats,
   type SourceFetchResult,
   ensureDir,
@@ -135,8 +134,6 @@ export async function runPipeline(options: PipelineOptions = {}): Promise<Pipeli
   const failedSources = fetchResults.filter((r) => r.source.enabled && !r.success);
 
   const maxRulesInMatrix = Math.max(...matrixStats.map((m) => m.totalCount), 0);
-  const totalExcluded = exclusions.size;
-  const totalAllowlisted = staticAllowlistRules.length;
 
   const pipelineStats: PipelineStats = {
     startTime: startTimeStr,
@@ -149,8 +146,8 @@ export async function runPipeline(options: PipelineOptions = {}): Promise<Pipeli
     sourceResults: fetchResults,
     totalRawRules,
     totalValidNormalizedRules,
-    totalExcludedCount: sourceExcludedTotal > 0 ? sourceExcludedTotal : totalExcluded,
-    totalWhitelistedCount: totalAllowlisted,
+    totalExcludedCount: sourceExcludedTotal,
+    totalWhitelistedCount: staticAllowlistRules.length,
     totalDeduplicatedCount: Math.max(totalValidNormalizedRules - maxRulesInMatrix, 0),
     matrixStats,
   };
@@ -185,7 +182,3 @@ export async function runPipeline(options: PipelineOptions = {}): Promise<Pipeli
 
   return pipelineStats;
 }
-
-export const PipelineOrchestrator = {
-  run: runPipeline,
-};

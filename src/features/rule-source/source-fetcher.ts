@@ -150,8 +150,3 @@ export async function fetchAllSources(
 
   return [...activeResults, ...disabledResults];
 }
-
-export const SourceFetcher = {
-  fetchSource,
-  fetchAllSources,
-};

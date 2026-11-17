@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - LITE - ALL
-! Version: 2026-11-17 12:51:17
-! Last modified: 2026-11-17 12:51:17
-! Total count: 64101
-! Allowlist count: 92
-! Blocklist count: 64009
+! Version: 2026-11-17 20:53:26
+! Last modified: 2026-11-17 20:53:26
+! Total count: 64105
+! Allowlist count: 99
+! Blocklist count: 64006
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -32,8 +32,10 @@
 @@||chatgpt.com^
 @@||claude.ai^
 @@||cnlogin.cainiao.com^
+@@||connect.rom.miui.com^
 @@||connectivitycheck.android.com^
 @@||connectivitycheck.gstatic.com^
+@@||connectivitycheck.platform.hicloud.com^
 @@||console.bce.baidu.com^
 @@||cstaticdun.126.net^
 @@||data.bilibili.com^
@@ -48,6 +50,7 @@
 @@||fp-it.fengkongcloud.com^
 @@||funcaptcha.com^
 @@||geetest.com^
+@@||gemini.google.com^
 @@||github.com^
 @@||githubusercontent.com^
 @@||gma.alicdn.com^
@@ -63,6 +66,7 @@
 @@||m.alipay.com^
 @@||m.ctrip.com^
 @@||minorshort.weixin.qq.com^
+@@||msftconnecttest.com^
 @@||msftncsi.com^
 @@||music.163.com^
 @@||nintendo.net^
@@ -70,6 +74,8 @@
 @@||oaiusercontent.com^
 @@||oauth-login-drcn.platform.dbankcloud.com^
 @@||onedrive.live.com^
+@@||open.weixin.qq.com^
+@@||openai.com^
 @@||openapi.alipay.com^
 @@||p1.music.126.net^
 @@||p2.music.126.net^
@@ -78,6 +84,7 @@
 @@||playstation.com^
 @@||puui.qpic.cn^
 @@||qlogo.cn^
+@@||qr.alipay.com^
 @@||recaptcha.net^
 @@||res.wx.qq.com^
 @@||servicewechat.com^
@@ -12035,8 +12042,6 @@
 ||bzpogcssaxbmc.space^
 ||bzpqekgjvaqkn.website^
 ||bzqy2p14z.com^
-||bzr.openai.com^
-||bzrcdn.openai.com^
 ||bzrgbresuhvrw.space^
 ||bztcjooivbndu.space^
 ||bztzpzqpltlad.site^
@@ -44290,7 +44295,6 @@
 ||r.msn.com^
 ||r.my.com^
 ||r.nexoraid1.space^
-||r.openai.com^
 ||r.planerange.com^
 ||r.quantivo1.space^
 ||r.rbc.ru^

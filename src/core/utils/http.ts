@@ -32,7 +32,17 @@ export async function fetchWithRetry(url: string, options: FetchOptions = {}): P
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP ${response.status} ${response.statusText}`);
+        const err = new Error(`HTTP ${response.status} ${response.statusText}`);
+        // Do not retry permanent 4xx client errors (except 408 timeout / 429 rate-limit)
+        if (
+          response.status >= 400 &&
+          response.status < 500 &&
+          response.status !== 408 &&
+          response.status !== 429
+        ) {
+          throw Object.assign(err, { nonRetryable: true });
+        }
+        throw err;
       }
 
       const contentType = response.headers.get("content-type")?.toLowerCase() ?? "";
@@ -46,6 +56,9 @@ export async function fetchWithRetry(url: string, options: FetchOptions = {}): P
       }
 
       const text = await response.text();
+      if (Buffer.byteLength(text, "utf-8") > maxSizeBytes) {
+        throw new Error(`Payload exceeds size limit: > ${maxSizeBytes} bytes`);
+      }
 
       // Reject HTML documents returned with status 200 (e.g. captive portal or proxy interception)
       const head = text.substring(0, 200).trim().toLowerCase();
@@ -63,6 +76,10 @@ export async function fetchWithRetry(url: string, options: FetchOptions = {}): P
           : String(err);
       lastError = new Error(msg);
       logger.warn(`Fetch attempt ${attempt}/${retries} failed for ${url}: ${msg}`, "HTTP");
+
+      if (err instanceof Error && "nonRetryable" in err) {
+        break;
+      }
 
       if (attempt < retries) {
         await new Promise((r) => setTimeout(r, attempt * 1000));

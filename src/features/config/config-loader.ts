@@ -155,9 +155,3 @@ export async function loadAllowlist(
   logger.info(`Loaded ${allRules.length} static allowlist rules`, "Config");
   return allRules;
 }
-
-export const ConfigLoader = {
-  loadConfigFile,
-  loadExclusions,
-  loadAllowlist,
-};

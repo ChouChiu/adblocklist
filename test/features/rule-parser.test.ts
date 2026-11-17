@@ -35,15 +35,28 @@ bilibili.com#@#.ad-box
       expect(allowRule?.syntax).toBe("@@||auth.example.net^");
     });
 
-    it("should ignore rules with $badfilter modifier to prevent mistaken blocking", () => {
+    it("should ignore rules with $badfilter or browser-scoped modifiers", () => {
       const content = `
 ||safe-site.com^$badfilter
-||tracker.com^
+||bcebos.com^$image,domain=pan.baidu.com
+||files.jb51.net^$image
+||c.m.163.com^$subdocument
+||tracker.com^$important
       `;
-      const rules = parseAbp(content, "TestBadfilter");
+      const rules = parseAbp(content, "TestModifiers");
       expect(rules.length).toBe(1);
       expect(rules[0].domain).toBe("tracker.com");
-      expect(rules.some((r) => r.domain === "safe-site.com")).toBe(false);
+    });
+
+    it("should parse explicit anchored TLD block rules", () => {
+      const content = `
+||bid^
+||zip^
+plainword
+      `;
+      const rules = parseAbp(content, "TestTlds");
+      expect(rules.length).toBe(2);
+      expect(rules.map((r) => r.domain)).toEqual(["bid", "zip"]);
     });
 
     it("should discard URL path rules to avoid false whitelisting and over-blocking", () => {

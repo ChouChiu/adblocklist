@@ -2,7 +2,3 @@
 export function toAdblockRule(domain: string, isWhitelist = false): string {
   return isWhitelist ? `@@||${domain}^` : `||${domain}^`;
 }
-
-export const SyntaxNormalizer = {
-  toStandardRule: toAdblockRule,
-};

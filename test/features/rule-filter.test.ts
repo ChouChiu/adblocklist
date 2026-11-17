@@ -100,6 +100,15 @@ describe("RuleFilter", () => {
       expect(prunedRules.some((r) => r.domain === "ad.example.com")).toBe(false);
     });
 
+    it("should prune subdomains when parent TLD is blocked", () => {
+      const rules = [createRule("bid"), createRule("spam.bid"), createRule("a.b.bid")];
+      const { prunedRules, prunedCount } = pruneSubdomains(rules);
+
+      expect(prunedRules.length).toBe(1);
+      expect(prunedCount).toBe(2);
+      expect(prunedRules[0].domain).toBe("bid");
+    });
+
     it("should prune subdomains in allowlist when parent domain is whitelisted", () => {
       const rules = [
         createRule("service.com", true),

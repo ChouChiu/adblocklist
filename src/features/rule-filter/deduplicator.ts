@@ -1,4 +1,5 @@
 import type { ParsedRule } from "../../core";
+import { hasMatchingParent } from "./parent-match";
 
 // Counts dot characters in a string
 function countDots(str: string): number {
@@ -44,12 +45,12 @@ function pruneDomainList(rules: ParsedRule[]): { keptRules: ParsedRule[]; pruned
   const keptRules: ParsedRule[] = [];
   let prunedCount = 0;
 
-  for (let dots = 1; dots < buckets.length; dots++) {
+  for (let dots = 0; dots < buckets.length; dots++) {
     const bucket = buckets[dots];
     if (!bucket) continue;
 
-    // Fast path: 1-dot domains (e.g. example.com) cannot be subdomains of any kept domain
-    if (dots === 1) {
+    // Fast path: 0-dot TLD rules cannot be subdomains of any kept domain
+    if (dots === 0) {
       for (const rule of bucket) {
         keptDomainSet.add(rule.domain);
         keptRules.push(rule);
@@ -57,25 +58,12 @@ function pruneDomainList(rules: ParsedRule[]): { keptRules: ParsedRule[]; pruned
       continue;
     }
 
-    // Multi-dot domains: check parent domains from broad to narrow
+    // Check parent domains from broad to narrow
     for (const rule of bucket) {
-      const domain = rule.domain;
-      let isSubdomainOfKept = false;
-
-      let dotIdx = domain.indexOf(".");
-      while (dotIdx !== -1) {
-        const parent = domain.substring(dotIdx + 1);
-        if (parent.includes(".") && keptDomainSet.has(parent)) {
-          isSubdomainOfKept = true;
-          break;
-        }
-        dotIdx = domain.indexOf(".", dotIdx + 1);
-      }
-
-      if (isSubdomainOfKept) {
+      if (hasMatchingParent(rule.domain, (parent) => keptDomainSet.has(parent))) {
         prunedCount++;
       } else {
-        keptDomainSet.add(domain);
+        keptDomainSet.add(rule.domain);
         keptRules.push(rule);
       }
     }
@@ -140,9 +128,3 @@ export function processRules(
     prunedCount,
   };
 }
-
-export const Deduplicator = {
-  exactDeduplicate,
-  pruneSubdomains,
-  process: processRules,
-};
