@@ -1,6 +1,6 @@
 ! Title: AdBlocklist - LITE - ALL
-! Version: 2026-11-17 20:53:26
-! Last modified: 2026-11-17 20:53:26
+! Version: 2026-11-17 12:55:39
+! Last modified: 2026-11-17 12:55:39
 ! Total count: 64105
 ! Allowlist count: 99
 ! Blocklist count: 64006

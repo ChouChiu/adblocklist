@@ -1,6 +1,6 @@
 # AdBlocklist 构建与审计报告
 
-> 构建时间: 2026-11-17 20:53:18 - 2026-11-17 20:53:30 (耗时: 12.32s)
+> 构建时间: 2026-11-17 12:55:36 - 2026-11-17 12:55:46 (耗时: 9.98s)
 
 ## 一、总体概览
 
@@ -18,45 +18,45 @@
 
 | 规则源 | 格式 | 区域 | 层级 | 状态 | 耗时(ms) | 原始行数 | 有效规则数 | 错误信息 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| AWAvenue 秋风广告规则 | hosts | china | lite | 成功 | 397 | 1,972 | 1,926 | - |
-| OISD (Small) | adblock | all | lite | 成功 | 4926 | 62,466 | 62,353 | - |
-| Peter Lowe's List | adblock | overseas | lite | 成功 | 2508 | 3,586 | 3,562 | - |
-| HaGeZi's Multi PRO | adblock | all | standard | 成功 | 5534 | 242,278 | 241,872 | - |
-| HaGeZi's DoH/VPN/Proxy Bypass | adblock | all | standard | 成功 | 2685 | 16,697 | 16,620 | - |
-| HaGeZi's Fake, Scam & Fraud | adblock | all | standard | 成功 | 2692 | 18,828 | 18,814 | - |
-| HaGeZi's Pop-up Ads | adblock | all | standard | 成功 | 4409 | 77,815 | 77,783 | - |
-| HaGeZi's Dynamic DNS (DynDNS) | adblock | all | standard | 成功 | 1448 | 1,532 | 1,518 | - |
-| HaGeZi's Badware File Hoster | adblock | all | standard | 成功 | 1409 | 1,114 | 1,098 | - |
-| HaGeZi's Native Tracker (Xiaomi) | adblock | china | standard | 成功 | 1500 | 424 | 403 | - |
-| HaGeZi's Native Tracker (Huawei) | adblock | china | standard | 成功 | 1389 | 162 | 138 | - |
-| HaGeZi's Native Tracker (Samsung) | adblock | all | standard | 成功 | 1363 | 215 | 201 | - |
-| HaGeZi's Native Tracker (LG webOS TV) | adblock | all | standard | 成功 | 1401 | 474 | 460 | - |
-| HaGeZi's Native Tracker (Windows & Office) | adblock | all | standard | 成功 | 1389 | 412 | 339 | - |
-| HaGeZi's Native Tracker (Amazon) | adblock | overseas | standard | 成功 | 1409 | 396 | 382 | - |
-| AdGuard DNS Filter | adblock | all | standard | 成功 | 5392 | 190,814 | 189,894 | - |
-| StevenBlack Unified Hosts | hosts | overseas | standard | 成功 | 4023 | 82,924 | 76,057 | - |
-| AdAway Default Blocklist | hosts | all | standard | 成功 | 2161 | 10,608 | 6,520 | - |
-| SmartTV Blocklist (AGH) | adblock | all | standard | 成功 | 1705 | 292 | 150 | - |
-| Game Console Adblock List | adblock | all | standard | 成功 | 1437 | 90 | 17 | - |
-| HaGeZi's Native Tracker (OPPO & Realme) | adblock | china | standard | 成功 | 1488 | 544 | 530 | - |
-| HaGeZi's Native Tracker (Vivo) | adblock | china | standard | 成功 | 1425 | 317 | 303 | - |
-| HaGeZi's Native Tracker (Apple) | adblock | all | standard | 成功 | 1408 | 118 | 104 | - |
-| CJX's Annoyance List | adblock | china | standard | 成功 | 1695 | 1,864 | 162 | - |
-| 乘风视频过滤规则 (xinggsf) | adblock | china | standard | 成功 | 1306 | 181 | 27 | - |
-| 乘风通用过滤规则 (xinggsf) | adblock | china | standard | 成功 | 1548 | 1,249 | 135 | - |
-| EasyList China | adblock | china | standard | 成功 | 3021 | 17,987 | 6,092 | - |
-| EasyPrivacy | adblock | all | standard | 成功 | 4181 | 54,510 | 44,533 | - |
-| Dan Pollock's hosts | hosts | overseas | standard | 成功 | 2692 | 13,417 | 13,084 | - |
-| 1024_hosts | hosts | china | standard | 成功 | 1603 | 3,242 | 3,224 | - |
-| HaGeZi's Native Tracker (TikTok) | adblock | all | standard | 成功 | 1485 | 561 | 547 | - |
-| HaGeZi's Native Tracker (Roku) | adblock | overseas | standard | 成功 | 1305 | 78 | 64 | - |
-| HaGeZi's The World's Most Abused TLDs (Spam TLDs) | adblock | all | full | 成功 | 1440 | 144 | 127 | - |
-| HaGeZi's Threat Intelligence Feeds (TIF Mini) | adblock | all | full | 成功 | 5008 | 182,382 | 182,333 | - |
-| OISD (Big) | adblock | overseas | full | 成功 | 5925 | 228,417 | 228,137 | - |
-| anti-AD | domains | china | full | 成功 | 4683 | 109,451 | 109,246 | - |
-| URLhaus Malicious URL Blocklist | adblock | all | standard | 成功 | 2657 | 18,598 | 2,048 | - |
-| DandelionSprout's Anti-Malware List | hosts | all | standard | 成功 | 2803 | 13,991 | 11,693 | - |
-| Phishing Army Blocklist | domains | all | full | 成功 | 5038 | 144,582 | 144,105 | - |
+| AWAvenue 秋风广告规则 | hosts | china | lite | 成功 | 94 | 1,972 | 1,926 | - |
+| OISD (Small) | adblock | all | lite | 成功 | 1496 | 62,466 | 62,353 | - |
+| Peter Lowe's List | adblock | overseas | lite | 成功 | 924 | 3,586 | 3,562 | - |
+| HaGeZi's Multi PRO | adblock | all | standard | 成功 | 86 | 242,278 | 241,872 | - |
+| HaGeZi's DoH/VPN/Proxy Bypass | adblock | all | standard | 成功 | 29 | 16,697 | 16,620 | - |
+| HaGeZi's Fake, Scam & Fraud | adblock | all | standard | 成功 | 96 | 18,828 | 18,814 | - |
+| HaGeZi's Pop-up Ads | adblock | all | standard | 成功 | 190 | 77,815 | 77,783 | - |
+| HaGeZi's Dynamic DNS (DynDNS) | adblock | all | standard | 成功 | 21 | 1,532 | 1,518 | - |
+| HaGeZi's Badware File Hoster | adblock | all | standard | 成功 | 96 | 1,114 | 1,098 | - |
+| HaGeZi's Native Tracker (Xiaomi) | adblock | china | standard | 成功 | 97 | 424 | 403 | - |
+| HaGeZi's Native Tracker (Huawei) | adblock | china | standard | 成功 | 105 | 162 | 138 | - |
+| HaGeZi's Native Tracker (Samsung) | adblock | all | standard | 成功 | 97 | 215 | 201 | - |
+| HaGeZi's Native Tracker (LG webOS TV) | adblock | all | standard | 成功 | 97 | 474 | 460 | - |
+| HaGeZi's Native Tracker (Windows & Office) | adblock | all | standard | 成功 | 96 | 412 | 339 | - |
+| HaGeZi's Native Tracker (Amazon) | adblock | overseas | standard | 成功 | 97 | 396 | 382 | - |
+| AdGuard DNS Filter | adblock | all | standard | 成功 | 94 | 190,814 | 189,894 | - |
+| StevenBlack Unified Hosts | hosts | overseas | standard | 成功 | 50 | 82,924 | 76,057 | - |
+| AdAway Default Blocklist | hosts | all | standard | 成功 | 186 | 10,608 | 6,520 | - |
+| SmartTV Blocklist (AGH) | adblock | all | standard | 成功 | 192 | 292 | 150 | - |
+| Game Console Adblock List | adblock | all | standard | 成功 | 96 | 90 | 17 | - |
+| HaGeZi's Native Tracker (OPPO & Realme) | adblock | china | standard | 成功 | 144 | 544 | 530 | - |
+| HaGeZi's Native Tracker (Vivo) | adblock | china | standard | 成功 | 124 | 317 | 303 | - |
+| HaGeZi's Native Tracker (Apple) | adblock | all | standard | 成功 | 96 | 118 | 104 | - |
+| CJX's Annoyance List | adblock | china | standard | 成功 | 105 | 1,864 | 162 | - |
+| 乘风视频过滤规则 (xinggsf) | adblock | china | standard | 成功 | 149 | 181 | 27 | - |
+| 乘风通用过滤规则 (xinggsf) | adblock | china | standard | 成功 | 95 | 1,249 | 135 | - |
+| EasyList China | adblock | china | standard | 成功 | 132 | 17,987 | 6,092 | - |
+| EasyPrivacy | adblock | all | standard | 成功 | 109 | 54,510 | 44,533 | - |
+| Dan Pollock's hosts | hosts | overseas | standard | 成功 | 258 | 13,417 | 13,084 | - |
+| 1024_hosts | hosts | china | standard | 成功 | 95 | 3,242 | 3,224 | - |
+| HaGeZi's Native Tracker (TikTok) | adblock | all | standard | 成功 | 95 | 561 | 547 | - |
+| HaGeZi's Native Tracker (Roku) | adblock | overseas | standard | 成功 | 96 | 78 | 64 | - |
+| HaGeZi's The World's Most Abused TLDs (Spam TLDs) | adblock | all | full | 成功 | 96 | 144 | 127 | - |
+| HaGeZi's Threat Intelligence Feeds (TIF Mini) | adblock | all | full | 成功 | 339 | 182,382 | 182,333 | - |
+| OISD (Big) | adblock | overseas | full | 成功 | 1852 | 228,417 | 228,137 | - |
+| anti-AD | domains | china | full | 成功 | 310 | 109,451 | 109,246 | - |
+| URLhaus Malicious URL Blocklist | adblock | all | standard | 成功 | 730 | 18,598 | 2,048 | - |
+| DandelionSprout's Anti-Malware List | hosts | all | standard | 成功 | 32 | 13,991 | 11,693 | - |
+| Phishing Army Blocklist | domains | all | full | 成功 | 345 | 144,582 | 144,105 | - |
 
 ## 三、9 类规则文件输出指标
 
