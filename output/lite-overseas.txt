@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - LITE - OVERSEAS
-! Version: 2026-11-22 12:21:19
-! Last modified: 2026-11-22 12:21:19
-! Total count: 63741
+! Version: 2026-11-22 21:36:28
+! Last modified: 2026-11-22 21:36:28
+! Total count: 63716
 ! Allowlist count: 99
-! Blocklist count: 63642
+! Blocklist count: 63617
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -1664,7 +1664,6 @@
 ||4u079hpvl.com^
 ||4uitrrt700.com^
 ||4v1wyy9r5z8xb9u.cfd^
-||4v9oc84lv4p8lpt.cfd^
 ||4w3ol467n.com^
 ||4w54d7rjg.com^
 ||4wbvq8yl2.com^
@@ -2471,7 +2470,6 @@
 ||8po6fdwjsym3.com^
 ||8poz7uwoho.com^
 ||8proe3xx6.com^
-||8qbtyzw45xk3urr5q.rest^
 ||8qfqhat9d.com^
 ||8qi3.fowebsiqa.shop^
 ||8rht5welv5.com^
@@ -3157,7 +3155,6 @@
 ||ablechime.com^
 ||ablehandbookrepugnant.com^
 ||ablelaunchshorts.com^
-||ablendcoelin.cfd^
 ||ablink.comms.trainline.com^
 ||ablink.info.wise.com^
 ||ablink.news.emails-puregym.com^
@@ -3210,7 +3207,6 @@
 ||abrasivefirsthandsadly.com^
 ||abrasiveslayerrequires.com^
 ||abreastebook.com^
-||abretacidify.cfd^
 ||abridgealgedo.com^
 ||abroad-ad.kingsoft-office-service.com^
 ||abroaddisgraceful.com^
@@ -10373,7 +10369,6 @@
 ||bewhidare.com^
 ||bewilderedblade.com^
 ||bewitchedcarry.pro^
-||beworrybellis.com^
 ||bewreakaglossaberchta.cyou^
 ||bewzoacohftco.space^
 ||bexkpopzujdus.space^
@@ -11683,7 +11678,6 @@
 ||bujcnegdeblpz.space^
 ||bukusukses.com^
 ||bukvwavcmonjv.space^
-||bulbosesuns.cfd^
 ||bulgingextraordinary.com^
 ||bulginglair.com^
 ||bulky-battle.com^
@@ -11812,7 +11806,6 @@
 ||bvxwlvzmmgnsb.space^
 ||bvycqrmqlqvp.com^
 ||bvyhpxikzylmn.space^
-||bvyutpbsok.com^
 ||bvzzcqfalsend.space^
 ||bwaozzmeerulo.site^
 ||bwau1s2fm.com^
@@ -11850,7 +11843,6 @@
 ||bwuonpqazac.in^
 ||bwvffebbohhiv.site^
 ||bwvgtmxrqmkwv.website^
-||bwvliutjhjcej44p3j6wovwmv3clr.cfd^
 ||bwwuveplotadr.site^
 ||bwxpystpdnbla.online^
 ||bwxq93jdg.com^
@@ -12144,7 +12136,6 @@
 ||cabinzenith.com^
 ||cablepaddle.com^
 ||cabnnr.com^
-||cacambogwaytruckie.cyou^
 ||cache.myth.dev^
 ||cache.picxxxhub.com^
 ||cache.prebid-server.com^
@@ -14248,7 +14239,6 @@
 ||columnspastrybonnet.com^
 ||com.econa.com^
 ||com.serveo.net^
-||comakehiltedathumia.cyou^
 ||comalonger.com^
 ||comanicilikeiste.com^
 ||combatbaskstationery.com^
@@ -18711,7 +18701,6 @@
 ||douxpatrix.click^
 ||dove.hoku.nz^
 ||dovecyton.com^
-||dovensaprocta.com^
 ||dowarmhugo.com^
 ||dowcmsotnskbv.online^
 ||dowerycleared.com^
@@ -18853,7 +18842,6 @@
 ||dreamteamaffiliates.com^
 ||dreary-version.pro^
 ||drearyenchantment.com^
-||dreckbonitoscueva.cfd^
 ||drenix50kp.com^
 ||dressedoutrageousrun.com^
 ||dressfatiguethrow.com^
@@ -20450,7 +20438,6 @@
 ||entry.org^
 ||entterto.com^
 ||enuwulwgsbicx.website^
-||envayecyder.com^
 ||envczfherlnzg.website^
 ||envelopeallydespair.com^
 ||enverkxou.com^
@@ -23298,7 +23285,6 @@
 ||furowo.org^
 ||furrowhardship.com^
 ||furryfork.com^
-||furthyaniseed.click^
 ||furtivelywhipped.com^
 ||fuse.ubs.com^
 ||fusion.sydsvenskan.se^
@@ -23538,7 +23524,6 @@
 ||g33ktr4ck.com^
 ||g33tr4c3r.com^
 ||g3m92egwo.com^
-||g3uwejphkq7x1hy4tw8.rest^
 ||g4d2cox74f.com^
 ||g4dgp989f.com^
 ||g4ggn42.mjlvchrphen86vgx3fwq.cyou^
@@ -26421,7 +26406,6 @@
 ||hnmonkedguxxl.website^
 ||hnnwonwjeiqpq.space^
 ||hnodmvcgffene.space^
-||hnotcyv.com^
 ||hnrgmc.com^
 ||hnsbsgnqcvqmn.site^
 ||hntiprpnvgsfh.site^
@@ -26445,7 +26429,6 @@
 ||hockeyhavoc.com^
 ||hoctmhlqtztpp.space^
 ||hoctor-pharity.xyz^
-||hodderracemedebunk.cfd^
 ||hodlwvavzwt.com^
 ||hodnjqyavomuj.site^
 ||hodor-collect.arabam.com^
@@ -27000,7 +26983,6 @@
 ||hxbt.alading123.com^
 ||hxdaevqueqpnv.site^
 ||hxdecujrfmyyv.online^
-||hxdswx.com^
 ||hxgqmhtogvxuy.website^
 ||hxhnsopexglnj.online^
 ||hxjhfqrolubqs.space^
@@ -28015,7 +27997,6 @@
 ||infamous-growth.pro^
 ||infamouscomer.com^
 ||infantile-courage.pro^
-||infantile-emotion.pro^
 ||infantileclass.pro^
 ||infantilecombination.com^
 ||infantiletransition.com^
@@ -32093,7 +32074,6 @@
 ||lilstts.com^
 ||lilxdostfpngv.space^
 ||lilxvvndclgcs.space^
-||limbeckmarled.com^
 ||limcqpzfaknvd.site^
 ||limecodesign.com^
 ||limetreeloadherself.com^
@@ -35681,7 +35661,6 @@
 ||miserableconcept.com^
 ||miserly-wrap.com^
 ||misesbenton.rest^
-||misguidedarticle.pro^
 ||misguidedshelves.com^
 ||mishandlepretty.com^
 ||misovxorsrti.in^
@@ -38964,7 +38943,6 @@
 ||oiismyzivtine.website^
 ||oiitisdcarhwh.space^
 ||oijnbvtqfrezf.online^
-||oililyjennet.click^
 ||oilylimit.com^
 ||oimg.nbcuni.com^
 ||oimywcipilemcn.com^
@@ -44270,7 +44248,6 @@
 ||raglassofrum.cc^
 ||ragnolopi.net^
 ||ragodafaykbsr.site^
-||ragtimeknmowhay.cfd^
 ||ragxtlbtbehwc.website^
 ||rahikhjwtcyivf.com^
 ||rahrcumhbyxrm.space^
@@ -47199,7 +47176,6 @@
 ||sbhopicieqsmd.online^
 ||sbigiumsjduxd.site^
 ||sbird.xyz^
-||sbirroamylum.rest^
 ||sbiweepevqmna.site^
 ||sbiwxwegeswrr.site^
 ||sbiyegajkasmy.online^
@@ -47680,7 +47656,6 @@
 ||sermfhdkrupwy.store^
 ||sermondirt.com^
 ||serosaharlem.com^
-||serranogossans.cyou^
 ||sersh.com^
 ||serumsugareffective.com^
 ||serumworkmanultimatum.com^
