@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - LITE - ALL
-! Version: 2026-11-24 14:38:09
-! Last modified: 2026-11-24 14:38:09
-! Total count: 64348
+! Version: 2026-11-25 00:25:59
+! Last modified: 2026-11-25 00:25:59
+! Total count: 64345
 ! Allowlist count: 99
-! Blocklist count: 64249
+! Blocklist count: 64246
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -1781,7 +1781,6 @@
 ||57l2ng6r91.com^
 ||57px99h5wi1g9gfm.cfd^
 ||57r4h8y2wycn42b.cyou^
-||57ro4evi31xq97w.yr1972kn5orxe4q.cfd^
 ||5853f04e7c.83c6db1e10.com^
 ||58686728.xyz^
 ||5872e54e6d.48f39e1095.com^
@@ -4811,7 +4810,6 @@
 ||ads.ennaharonline.com^
 ||ads.enrt.eu^
 ||ads.epi.sk^
-||ads.epltalk.com^
 ||ads.eu.msn.com^
 ||ads.eurozet.pl^
 ||ads.fairfax.com.au^
@@ -15549,7 +15547,6 @@
 ||currentreared.com^
 ||curriculture.com^
 ||curriculumoutcry.com^
-||curryfielddistribution.com^
 ||cursecrookadvantage.com^
 ||cursorpreach.com^
 ||cursosmarketing.info^
@@ -40075,7 +40072,6 @@
 ||oujykoverucym.website^
 ||oulzlldvekopy.website^
 ||ounbiwssqohds.online^
-||oundhertobeconsist.org^
 ||oungimuk.net^
 ||oupcqqltw.com^
 ||ouphouch.com^
@@ -62943,6 +62939,7 @@
 ||yqwueei.icu^
 ||yqxyktrd.xyz^
 ||yqyuudrknhwsd.site^
+||yr1972kn5orxe4q.cfd^
 ||yr2spd4ucy.com^
 ||yr7unl1qs.com^
 ||yraexzjnxasnz.site^
