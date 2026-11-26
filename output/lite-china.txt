@@ -1,9 +1,9 @@
 ! Title: AdBlocklist - LITE - CHINA
-! Version: 2026-11-25 13:58:51
-! Last modified: 2026-11-25 13:58:51
-! Total count: 62951
+! Version: 2026-11-26 00:02:13
+! Last modified: 2026-11-26 00:02:13
+! Total count: 62950
 ! Allowlist count: 99
-! Blocklist count: 62852
+! Blocklist count: 62851
 ! Homepage: https://github.com/chouchiu/adblocklist
 ! License: MIT
 ! Notice: Generated automatically. Do not edit manually.
@@ -36599,7 +36599,6 @@
 ||neoasjnkklymj.online^
 ||neobasnet.timeout.ru^
 ||neocounter.neoworx-blog-tools.net^
-||neoffic.com^
 ||neonewszone.lat^
 ||neousaunce.com^
 ||nephriasebasichutia.cyou^
